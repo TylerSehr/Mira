@@ -1,0 +1,20 @@
+# Charge Cases Requirements
+
+- Ideally within 2 months
+- can support at minimum 500mah battery size
+- 2000 units (500 per month)
+- pogo pin built in the case shell, or magnetic wire charger
+- leather or silver ideal
+- USB C, LED light indicator
+
+Industrial Design Examples Below:
+ 
+![image.png](attachment:374351f1-d483-4c9e-889d-37025590e73f:image.png)
+
+![image.png](attachment:1d9ed9b3-8f33-45e6-9bee-2a13b461bd05:image.png)
+
+![image.png](attachment:293ea4bb-16da-4012-b0c4-76070e9271d2:image.png)
+
+![Example internal pogo pin charger](attachment:a0a3e3f0-e786-4543-abea-3bbd4cb352e0:IMG_3112.heic)
+
+Example internal pogo pin charger
