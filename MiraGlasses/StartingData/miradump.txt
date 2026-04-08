@@ -1,0 +1,192 @@
+# Mira (trymira.com) — Product & Company Information Dump
+# Sourced: April 2026
+
+---
+
+## COMPANY OVERVIEW
+
+**Company Name:** Mira (formerly Halo / Halo Nova)
+**Website:** https://www.trymira.com
+**Location:** San Francisco, CA
+**Stage:** Seed-stage startup
+**Team Size:** ~7 people (at time of launch announcement)
+**LinkedIn:** https://www.linkedin.com/company/mira-glasses
+**Instagram:** @trymira_
+
+---
+
+## FOUNDERS
+
+**AnhPhu Nguyen**
+- Role: Product experience, daily usability, comfort, and wearability
+- Background: Harvard dropout; met co-founder at Harvard makerspace
+
+**Caine Ardayfio**
+- Role: Low-latency infrastructure powering the device
+- Background: Harvard dropout (age 22 at time of seed raise)
+- Met Nguyen at Harvard makerspace
+
+**Founder Background / Viral Moment:**
+- Before Mira, the duo built 10 projects together at Harvard's makerspace
+- Their early hardware experiments (flamethrowers, robotic tentacles, smart glasses) generated 80+ million views online
+- In September 2024, they demonstrated "I-XRAY": facial recognition software running on hacked Meta Ray-Ban glasses that could surface people's personal info just by looking at them. They responsibly declined to release it and instead published guidance for removing personal data from online directories.
+- This viral moment brought them significant attention and validated market interest in smart glasses
+
+---
+
+## FUNDING
+
+- **Total Raised:** $6.6 million seed round
+- **Lead Investor:** General Catalyst
+- **Other Investors:** Morningside Venture Investments Limited, Pillar VC, Soma Capital, Village Global, Naval Ravikant (individual)
+- General Catalyst stated they backed the founders "from day one" and views the product as demonstrating ambient AI applications in real-world contexts
+
+---
+
+## PRODUCT: MIRA GLASSES
+
+### Core Concept
+Mira positions itself as the "cognitive copilot" and "second brain" — AI-powered smart glasses that remember everything and provide proactive, real-time intelligence. The device is audio-first with no camera, designed for continuous daily wear.
+
+### Mission / Vision
+"We want humans to dive into what makes them so special. To spend time on what only humans can do, and what an AI can't."
+
+The founders identify memory as humanity's fundamental cognitive bottleneck — people forget names, lose meeting details, and waste time retrieving info from phones. Mira aims to fix this via wearable ambient AI.
+
+### Hardware Specifications
+- **Weight:** 39 grams (approximately half the weight of Meta Ray-Ban glasses)
+- **Width:** 145.6mm (5.73 inches)
+- **Battery Life:** 10–12+ hours on a single charge (claimed as double that of competing smart glasses)
+- **Display:** Dual waveguide display (dual-lens, fully private — only the wearer can see it)
+- **Microphone:** Yes — always-on, continuously captures audio
+- **Camera:** NO camera
+- **Response Latency:** Sub-700 milliseconds (fast enough to feel like natural thought)
+- **Accessories Included:** Touch-sensitive ring controller
+
+### Ring Controller
+- Touch-sensitive ring included with the glasses
+- Used to answer calls, activate AI, and navigate without touching the glasses
+- Discreet gesture control
+
+### Key Features
+- **Unlimited recording** — records all conversations continuously
+- **Automatic audio deletion** — audio is deleted immediately after transcription; only transcripts are retained
+- **Local transcript storage** — transcripts stored on user's phone, NOT on company servers
+- **Meeting notes & summaries** — automatic key point extraction from meetings
+- **Real-time translation** — 60+ languages, claimed as instant and automatic
+- **Memory recall** — remembers names, conversations, meeting context
+- **Proactive AI assistance** — surfaces relevant context without prompting
+- **Search / Q&A** — direct information retrieval without a smartphone
+- **Follow-up questions** — suggests relevant follow-ups
+- **Calculations**
+
+### AI Backend
+- Powered by language models from Google (Alphabet) and Anthropic
+- Custom agent framework built by internal engineering team
+- Processes extensive conversation histories for "proactive insights"
+
+### Privacy Model
+- No camera
+- Audio recordings are deleted immediately after transcription
+- Transcripts stored locally on user's phone (not on Mira's servers)
+- Company never sells or trains on user data
+- Cannot distinguish between different speakers except the wearer
+- Users expected to obtain consent before recording (consistent with wearable tech norms)
+
+### Pricing
+- **Standard:** $479
+- **Discounted:** $429 (discount offered until Dec. 31 of launch year)
+- **With prescription lenses:** $599 ($549 discounted)
+- **Subscription:** 3 free daily AI questions included; $20/month for premium/unlimited AI access
+- **Free tier includes:** Unlimited meeting transcription, note-taking, translation
+
+### Target Users
+- Executives
+- Sales teams
+- Engineers
+- Professionals requiring hands-free intelligence during critical moments
+
+### Launch Timeline
+- Announced August 2025
+- Shipping: January 2026
+
+---
+
+## COMPETITIVE POSITIONING
+
+**Primary Competitor:** Meta Ray-Ban AI Glasses
+
+**Mira's differentiation:**
+- No camera (privacy-first approach)
+- Lighter than Meta Ray-Bans
+- Longer battery life than Meta Ray-Bans
+- Audio-only transcription enables faster response times
+- Local data storage vs. cloud dependency
+- Proactive "second brain" vs. reactive "Siri-style assistant"
+- "Hyper-intelligent second brain to remember everything and get daily proactive insights" vs. Meta's "assistant to answer basic questions"
+
+**Other context:**
+- Positioned against Ray-Ban Meta AI Glasses, with continuous listening rather than only responding to direct queries
+- Industry observers predict smartphones may eventually be replaced by advanced eyewear in the AI era
+
+---
+
+## COMPANION APP
+
+- Available on Apple App Store: https://apps.apple.com/us/app/mira-glasses/id6748099921
+- Users review and interact with recordings/summaries through the companion app
+- Transcripts stored locally via the app
+
+---
+
+## COMPANY NAME HISTORY
+
+- Originally: Halo / Halo Nova
+- Rebranded to: Mira
+- Website was halo.so, now trymira.com
+- LinkedIn still listed as "Mira Glasses"
+
+---
+
+## OPEN ROLES (as of research date)
+
+- Founding Software Engineer (AI + Backend)
+- Founding Hardware Operations Lead (responsible for supply chain, manufacturing, and fulfillment pipeline — taking wearable devices from prototype to reliable production)
+
+---
+
+## MEDIA COVERAGE
+
+- TechCrunch: "Harvard dropouts to launch 'always on' AI smart glasses that listen and record every conversation" (Aug 2025)
+- Gizmodo: "Oh Great, Smart Glasses That Record Everything You Say"
+- Benzinga / Yahoo Finance: "We Dropped Out Of Harvard And Dedicated Our Lives To Building This"
+- General Catalyst blog: "Seeding the Future with Mira"
+- PitchBook profile: https://pitchbook.com/profiles/company/914548-24
+
+---
+
+## KEY CONCERNS / CRITICISM (from press)
+
+- Always-on audio recording raises privacy concerns
+- Sets precedent for wearable surveillance technology
+- Transcriptions stored indefinitely despite audio deletion
+- Potential "slippery slope" toward video recording
+- Cloud-dependent processing may cause latency despite marketing claims
+- Founders previously built I-XRAY doxing demo (though they did not release it)
+
+---
+
+## SOURCES
+
+- https://www.trymira.com/
+- https://www.trymira.com/products/mira/
+- https://trymira.com/products/halo-x/launch
+- https://www.generalcatalyst.com/stories/seeding-the-future-with-mira
+- https://pulse2.com/mira-6-6-million-seed-funding/
+- https://gizmodo.com/oh-great-smart-glasses-that-record-everything-you-say-2000699011
+- https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/
+- https://www.benzinga.com/news/topics/25/11/48960389/exclusive-we-dropped-out-of-harvard-and-dedicated-our-lives-to-building-this-their-349-ai-with-hyper-
+- https://peopleofcolorintech.com/articles/harvard-duo-behind-viral-doxing-glasses-raise-6-6m-for-glasses-that-remember-everything/
+- https://medium.com/@breezen100/building-a-second-brain-trymira-raises-6-6m-for-its-ai-glasses-vision-1020dc6cd035
+- https://apps.apple.com/us/app/mira-glasses/id6748099921
+- https://pitchbook.com/profiles/company/914548-24

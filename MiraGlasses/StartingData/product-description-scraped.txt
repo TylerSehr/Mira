@@ -1,0 +1,238 @@
+# MIRA — Comprehensive Product Description (Scraped)
+# Source: trymira.com and public press/reviews
+# Date compiled: April 2026
+
+---
+
+## PRODUCT LINE OVERVIEW
+
+Mira (trymira.com) makes two primary hardware products that work together as a system:
+1. **Mira Glasses** — AI smart glasses with a dual waveguide display
+2. **Mira Ring** — Touch-sensitive ring controller, included with glasses purchase
+
+Both are paired with the **Mira App** (iOS), which acts as the second brain interface.
+
+---
+
+## PRODUCT 1: MIRA GLASSES
+
+### What It Is
+Mira Glasses are lightweight AI smart glasses designed for continuous, all-day wear. They listen to everything happening around the wearer, transcribe it in real time, and surface relevant information, answers, and proactive insights directly in the wearer's field of view via a dual waveguide display — without a camera and without touching a phone.
+
+The device is positioned as the "cognitive copilot" — an ambient AI that lives with you rather than something you interact with reactively.
+
+### Physical Specifications
+| Spec | Value |
+|------|-------|
+| Weight | 39 grams |
+| Frame Width | 145.6mm (5.73 inches) |
+| Battery Life | 10–12+ hours (claimed) |
+| Camera | None |
+| Display | Dual waveguide display (private — only wearer can see) |
+| Microphone | Yes — always-on |
+| Speakers | Yes — built-in, crystal-clear audio |
+| Connectivity | Bluetooth (pairs with iPhone) |
+| Prescription | Available — custom 1.74 index lenses (thinnest/lightest available) |
+
+### Display Technology
+- **Type:** Dual waveguide display
+- **Visibility:** Fully private — only the wearer can see what's shown
+- **Content:** Surfaces AI text responses, notifications, translations, prompts
+- **Category:** "Display glasses" — falls between voice-only AI glasses and full AR (provides a color screen for notifications and AI responses without full spatial AR)
+
+### Audio System
+- Always-on microphones capture all conversations and ambient audio
+- Built-in speakers for audio feedback
+- No video/camera capability — audio only
+
+### AI Response Performance
+- Sub-700 millisecond latency for AI responses
+- Claimed to be faster than many cloud-based competing services
+- Designed to feel like natural thought speed
+
+### No Camera — Intentional Design Choice
+Unlike Meta Ray-Ban glasses, Mira deliberately omits a camera. This enables:
+- Higher AI response speed (audio-only processing pipeline is faster)
+- Stronger privacy positioning (no visual recording of others)
+- Simpler regulatory profile
+- The founders cite this as a core differentiator after their I-XRAY facial recognition demo demonstrated the risks of camera-equipped wearables
+
+### Comparison to Competitors
+| Feature | Mira | Meta Ray-Ban Display |
+|---------|------|---------------------|
+| Weight | 39g | ~70g |
+| Camera | No | Yes |
+| Battery | 10–12+ hrs | ~8 hrs |
+| Display | Dual waveguide | Micro-LED waveguide |
+| AI model | Google + Anthropic | Meta AI |
+| Local storage | Yes (transcripts on phone) | No |
+| Price | $479–$649 | Similar range |
+
+Other competitors mentioned in press:
+- Even Realities Even G2 smart glasses
+- Limitless recorder pendant (audio-only, no display)
+- Brilliant Labs Halo
+
+---
+
+## PRODUCT 2: MIRA RING
+
+### What It Is
+A touch-sensitive ring controller that ships included with the Mira Glasses purchase. It serves as the primary physical input device so users never need to touch the glasses themselves.
+
+### Features
+- Touch-sensitive surface
+- Gesture/tap controls for:
+  - Answering calls
+  - Activating the AI assistant
+  - Navigating menus
+  - Skipping songs
+- Discreet — designed to be inconspicuous in professional settings
+- Included with glasses (not sold separately, based on available info)
+
+---
+
+## PRODUCT 3: MIRA APP (iOS)
+
+### What It Is
+The Mira App (developer: Industrials, Inc.) is the companion application that acts as the brain behind the glasses. It stores transcripts, manages AI queries, surfaces proactive insights, and connects the hardware to the AI backend.
+
+### App Store Details
+- **App Name:** Mira Glasses
+- **Developer:** Industrials, Inc.
+- **Category:** Productivity
+- **Size:** 73.1 MB
+- **Compatibility:** iOS 18.0+; works on iPhone, iPad, iPod touch
+- **Rating:** 4.1/5 stars (26 ratings at time of research)
+- **Age Rating:** 4+
+
+### Core Features (Free)
+- **Unlimited meeting transcription** — all conversations auto-transcribed
+- **Automatic note-taking** — key points extracted from meetings
+- **Real-time translation** — 60+ languages, instant and automatic
+- **Conversation summaries** — AI-generated summaries of discussions
+- **Memory recall** — search and retrieve past conversations
+- **Proactive insights** — AI surfaces relevant context without being asked
+- **Teleprompter mode** — assists with presentation delivery; text scrolls in glasses display
+
+### Premium Features ($19.99/month or $191.99/year)
+- Unlimited AI assistant queries (free tier: 3 questions/day)
+- Advanced proactive insights
+- Early customers receive 1-month free trial of unlimited AI
+
+### Custom Skills
+- Users can configure 3 custom AI skills/behaviors tailored to their specific workflow
+- Described by users as "the main game changer" — allows the AI to act as a domain-specific assistant
+
+### AI Backend
+- Powered by language models from **Google (Alphabet)** and **Anthropic**
+- Custom agent framework built by Mira's internal engineering team
+- Processes extensive conversation histories for personalized, proactive responses
+
+### Data & Privacy
+- Audio recordings deleted immediately after transcription (not stored anywhere)
+- Transcripts stored locally on user's phone only (not on Mira's servers)
+- Company never sells or trains on user data
+- Cannot distinguish between different speakers (only captures wearer's perspective)
+
+### Version History (recent)
+- **v1.0.31 (March 2026):** Added real-time AI feature; fixed Bluetooth connectivity issues
+- Earlier versions: transcription improvements, firmware updates, notification features in glasses
+
+---
+
+## KEY USE CASES
+
+### Professional / Enterprise
+- **Meetings:** Auto-transcribes and summarizes every meeting; surfaces names, prior context, and action items
+- **Sales calls:** Recalls prospect history, suggests follow-up questions, surfaces product info
+- **Engineering:** Hands-free access to documentation and calculations while working
+- **Executives:** Instant access to briefing info, recall of past conversations with team members
+
+### Everyday / Personal
+- **Language translation:** Real-time translation in 60+ languages for travel or multilingual conversations
+- **Memory augmentation:** Remember names, details, and facts from all conversations
+- **Presentations / public speaking:** Teleprompter mode streams script text into the display
+- **General Q&A:** Ask questions without pulling out a phone
+
+### Target User Segments
+- Executives
+- Sales professionals
+- Engineers
+- Knowledge workers requiring hands-free AI access
+- Frequent travelers (translation use case)
+
+---
+
+## PRICING SUMMARY
+
+| Product / Option | Price |
+|-----------------|-------|
+| Mira Glasses (base) | $479 (early pricing) → $649 (current) |
+| Mira Glasses (discounted, Dec. 2025) | $429 |
+| With prescription lenses | $599 ($549 discounted) |
+| Mira Ring | Included with glasses |
+| App — Free tier | 3 AI questions/day; unlimited transcription/translation |
+| App — Premium Monthly | $19.99/month |
+| App — Premium Annual | $191.99/year |
+
+*Note: Pricing appears to have shifted from the initial $479 launch price toward $649 as of April 2026. Prescription lenses are non-refundable and non-reworkable once ordered.*
+
+---
+
+## PRODUCT PHILOSOPHY
+
+**Core insight:** Memory is humanity's fundamental cognitive bottleneck. People forget names seconds after hearing them, lose meeting details, and waste time pulling phones out to retrieve information.
+
+**Solution philosophy:** Rather than building a reactive assistant (ask → answer), Mira is designed as a proactive system that lives with the user and surfaces relevant information before they have to ask. "For the first time, assistance can be proactive and conversational, not reactive and procedural."
+
+**Long-term vision:** The founders want technology that frees humans from routine cognitive tasks so they can focus on "what only humans can do, and what an AI can't." The glasses are step one toward ambient computing replacing the smartphone as the primary human-computer interface.
+
+---
+
+## PRODUCT HISTORY & NAME CHANGES
+
+| Period | Name |
+|--------|------|
+| Pre-launch prototype | Halo / Halo Nova |
+| Website | halo.so → trymira.com |
+| Current brand | Mira |
+| Legal entity | Industrials, Inc. (per App Store) |
+
+---
+
+## HARDWARE MANUFACTURING CONTEXT
+
+Mira is hiring a Founding Hardware Operations Lead responsible for:
+- Supply chain ownership
+- Manufacturing pipeline management
+- Fulfillment operations
+- Taking the device from prototype to reliable production at scale
+
+The company operates fully in-person in San Francisco. As of launch they had ~7 employees. The hardware manufacturing supply chain for smart glasses of this type typically involves:
+- Waveguide display components (specialized optical manufacturers)
+- Frame fabrication (likely sourced from Chinese eyewear manufacturing hubs — Shenzhen for smart glasses components, Danyang for optical lenses)
+- Battery and electronics integration
+- Custom firmware
+- OEM/ODM assembly partners
+
+---
+
+## SOURCES
+
+- https://www.trymira.com/ (403 blocked)
+- https://www.trymira.com/products/mira/ (403 blocked)
+- https://trymira.com/products/halo-x/launch (403 blocked)
+- https://shop.trymira.com/ (403 blocked)
+- https://apps.apple.com/us/app/mira-glasses/id6748099921
+- https://www.generalcatalyst.com/stories/seeding-the-future-with-mira
+- https://pulse2.com/mira-6-6-million-seed-funding/
+- https://gizmodo.com/oh-great-smart-glasses-that-record-everything-you-say-2000699011
+- https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/
+- https://www.benzinga.com/news/topics/25/11/48960389/exclusive-we-dropped-out-of-harvard-and-dedicated-our-lives-to-building-this-their-349-ai-with-hyper-
+- https://peopleofcolorintech.com/articles/harvard-duo-behind-viral-doxing-glasses-raise-6-6m-for-glasses-that-remember-everything/
+- https://medium.com/@breezen100/building-a-second-brain-trymira-raises-6-6m-for-its-ai-glasses-vision-1020dc6cd035
+- https://treeview.studio/blog/smart-glasses-the-complete-guide-for-2026
+- https://trymira.com/open-roles/founding-hardware-operations (403 blocked)
+
+*Note: trymira.com returns 403 errors on direct fetch, so all product page data is sourced from press coverage, App Store listings, and cached/indexed content.*

@@ -1,0 +1,297 @@
+# MIRA — Technical Hardware Description
+# Derived from: product-description-scraped.txt and public sources
+# Date: April 2026
+#
+# NOTE ON DATA CONFIDENCE:
+# Mira's product pages return 403 errors and no official hardware spec sheet has been
+# published. Specifications below are sourced from press coverage, the App Store listing,
+# and the General Catalyst investor blog. Where specific internal components are not
+# publicly confirmed, they are inferred from industry-standard analogues for this class
+# of device and are marked [INFERRED].
+
+---
+
+## DEVICE 1: MIRA GLASSES
+
+---
+
+### 1. FORM FACTOR & MECHANICAL
+
+**Overall form:** Full-rim eyeglass frame in a conventional spectacles form factor. Designed to be worn all-day as a standard pair of glasses with embedded electronics.
+
+**Frame material:** Not officially disclosed. For this weight class (39g total) with integrated optics, battery, and electronics, the frame is likely [INFERRED] a combination of:
+- Injection-molded nylon or TR-90 (thermoplastic rubber) for the front frame — lightweight, flexible, hypoallergenic
+- Metal alloy (titanium or stainless steel) hinges for durability
+- Silicone or acetate nose pads
+
+**Weight:** 39 grams total assembled weight
+- Comparable: standard plastic eyeglasses = ~20–25g; Meta Ray-Ban Display = ~70g
+- Mira achieves roughly half the weight of Meta's display glasses despite similar feature set
+
+**Frame width:** 145.6mm (5.73 inches)
+- Standard adult medium-to-large fit
+
+**Temples (arms):** Electronics are housed in thickened temple arms — this is standard packaging for all smart glasses. The temples would contain:
+- Battery cell(s)
+- PCB / SoC
+- Microphone(s)
+- Speaker driver(s)
+- Bluetooth radio
+- Charging contacts or port
+
+**Prescription compatibility:** Yes. Custom lenses available using 1.74 high-index optics — the thinnest and lightest lens index available commercially. These are ground to prescription and installed in the frame. Non-refundable / non-reworkable once ordered.
+
+---
+
+### 2. DISPLAY SYSTEM
+
+**Type:** Dual waveguide display
+- One waveguide per lens (binocular configuration)
+- Each waveguide is a thin optical element embedded in or laminated to the lens that redirects light from a projector into the wearer's eye
+
+**Visibility:** Fully private. The waveguide redirects light only toward the wearer's eye at a specific angle — observers looking at the glasses from the outside cannot see the projected image.
+
+**Display category:** "Display glasses" — sits between:
+- Voice-only AI glasses (no display, e.g. Ray-Ban Meta Gen 2): audio output only
+- Full AR glasses (e.g. XREAL Air): spatially-anchored overlays, 6DoF tracking
+- Mira occupies the middle tier: screen-on-lens for text/UI, no spatial AR
+
+**Content rendered:** Text responses, notifications, translations, teleprompter text, AI prompts. Not a full spatial AR environment.
+
+**Projector type:** Not officially disclosed. For dual waveguide systems at this weight and power budget, the projector is likely [INFERRED] one of:
+- Micro-OLED (most common in premium display glasses — high brightness, compact)
+- LCoS (Liquid Crystal on Silicon) — used in some waveguide systems
+- Micro-LED (emerging, very power efficient)
+The projector sits at the edge of the lens and couples light into the waveguide.
+
+**Waveguide construction:** Not officially disclosed. Likely [INFERRED]:
+- Geometric/diffractive waveguide (similar to Lumus-style reflective waveguide or WaveOptics diffractive)
+- Thin glass or plastic substrate
+- Coatings optimized for light coupling efficiency
+
+**Field of view:** Not disclosed. Display glasses in this class typically offer [INFERRED] a limited, central FoV (approximately 20–40°) sufficient for text readout, not wide-angle spatial AR.
+
+**Resolution:** Not disclosed publicly.
+
+**Color:** Press describes it as "color screen" — not monochrome (monochrome waveguides are cheaper/simpler; color indicates a more capable projector/waveguide stack).
+
+---
+
+### 3. AUDIO SYSTEM
+
+**Microphones:**
+- Always-on configuration
+- Quantity not disclosed; smart glasses in this class typically use [INFERRED] 2–4 MEMS microphones for:
+  - Beamforming (directional audio pickup toward wearer's voice)
+  - Noise cancellation (filtering ambient audio from speech)
+  - Wind noise reduction
+- Positioned in the temple arms, near the wearer's ears and mouth
+
+**Speakers:**
+- Built-in, described as "crystal-clear audio"
+- Type: likely [INFERRED] open-ear speakers (directional drivers angled toward the ear canal without insertion) — same approach as Ray-Ban Meta, Bose Frames, etc.
+- Positioned in temple arms near the ear
+
+**Audio processing pipeline:**
+1. Microphone captures raw audio continuously
+2. On-device or near-device pre-processing (noise reduction, VAD — voice activity detection)
+3. Audio streamed via Bluetooth to paired iPhone
+4. iPhone app runs speech-to-text transcription
+5. Transcript is stored locally; raw audio is immediately and permanently deleted
+6. AI model processes transcript for responses and proactive insights
+7. Response text sent back to glasses via Bluetooth; displayed on waveguide
+
+**No camera:** Explicitly absent by design. No image sensor, no image signal processor (ISP), no optics for imaging. This simplifies the BOM, reduces power consumption, and removes regulatory/privacy surface area.
+
+---
+
+### 4. COMPUTE & CONNECTIVITY
+
+**On-device processor:** Not disclosed. Given the weight and battery life targets, the glasses themselves likely run a minimal embedded MCU or DSP [INFERRED] responsible for:
+- Audio capture and pre-processing
+- Bluetooth stack management
+- Display driver control
+- Power management
+- Firmware over-the-air (OTA) update support (confirmed via App Store version history showing firmware updates)
+
+**Primary compute:** Offloaded to the paired iPhone via Bluetooth. The iPhone runs the Mira app, which handles:
+- Full speech-to-text transcription
+- AI model API calls (Google / Anthropic backends)
+- Transcript storage
+- Response rendering and push to glasses display
+
+**Connectivity:** Bluetooth (version not specified; likely [INFERRED] BT 5.x for low-energy, low-latency audio streaming)
+
+**Wireless charging / port:** Not specified. Smart glasses in this class typically use [INFERRED] a magnetic charging cradle or USB-C port in the temple.
+
+**AI response latency:** Sub-700ms end-to-end (microphone capture → transcription → AI inference → display render). This is the full round-trip including cloud API calls to Google/Anthropic.
+
+---
+
+### 5. POWER SYSTEM
+
+**Battery life:** 10–12+ hours claimed (all-day wear target)
+**Battery type:** Lithium-ion or lithium-polymer cells [INFERRED], distributed in the temple arms
+**Battery capacity:** Not disclosed. For reference, Meta Ray-Ban Display (70g, ~8hr) uses a similar split-cell architecture; Mira's lighter weight (39g) with longer claimed life suggests either:
+- More efficient display/projector system
+- Lower-power SoC
+- Aggressive power gating when display is not active
+**Charging:** Method not specified
+
+---
+
+### 6. OPTICAL LENSES
+
+**Standard version:** Clear optic/sunglass lens with waveguide embedded or laminated
+**Prescription version:** Custom 1.74 high-index lenses
+- 1.74 is the highest index available for plastic lenses (thinnest and lightest at high prescriptions)
+- Ground to wearer's Rx and fitted in the frame
+- Non-refundable / non-reworkable once ordered — indicates custom manufacturing, not off-the-shelf
+
+---
+
+### 7. HARDWARE SYSTEM SUMMARY — GLASSES
+
+| Subsystem | Component | Status |
+|-----------|-----------|--------|
+| Frame | Nylon/TR-90 + metal hinges | [INFERRED] |
+| Display | Dual waveguide (color) + micro-projector x2 | Confirmed (type) |
+| Projector type | Micro-OLED or LCoS | [INFERRED] |
+| Microphones | MEMS array (qty unknown) | Confirmed (presence) |
+| Speakers | Open-ear directional drivers | Confirmed (presence) |
+| Camera | None | Confirmed |
+| On-device MCU | Low-power embedded MCU/DSP | [INFERRED] |
+| Connectivity | Bluetooth 5.x | Confirmed (BT); version [INFERRED] |
+| Battery | Li-ion / LiPo, split temple cells | [INFERRED] |
+| Battery life | 10–12+ hours | Confirmed (claimed) |
+| Weight | 39g | Confirmed |
+| Frame width | 145.6mm | Confirmed |
+| Prescription lenses | 1.74 high-index, custom Rx | Confirmed |
+| Charging | Not specified | Unknown |
+| OTA firmware | Yes | Confirmed (via App Store changelog) |
+
+---
+
+---
+
+## DEVICE 2: MIRA RING (CONTROLLER)
+
+---
+
+### 1. FORM FACTOR & MECHANICAL
+
+**Type:** Wearable finger ring with embedded touch-sensing electronics
+**Design intent:** Discreet, inconspicuous in professional and social settings — resembles a conventional ring
+**Material:** Not disclosed. Smart rings in this class are typically [INFERRED]:
+- Polycarbonate or resin shell
+- Possible metal outer shell for aesthetics
+- Silicone or smooth finish for comfort
+**Sizing:** Not disclosed publicly. Likely [INFERRED] available in multiple standard ring sizes
+**Included:** Ships with Mira Glasses purchase — not sold separately (based on available info)
+**Weight:** Not disclosed; expected to be very light given ring form factor
+
+---
+
+### 2. INPUT / SENSING
+
+**Sensing technology:** Touch-sensitive surface
+- Likely [INFERRED] capacitive touch sensing — same technology used in touchscreens, miniaturized for a ring form factor
+- Detects taps, swipes, holds, or gesture sequences
+
+**Confirmed input actions:**
+- Answering / ending calls
+- Activating the AI assistant
+- Navigating menus
+- Skipping songs / media control
+
+**Interaction model:** Discreet single-handed gestures on the ring surface translate to commands on the glasses. No need to touch the glasses frame itself.
+
+---
+
+### 3. COMPUTE & CONNECTIVITY
+
+**Connectivity:** Bluetooth — pairs with the Mira Glasses or directly with the iPhone [INFERRED]
+**On-ring compute:** Minimal embedded MCU for touch event detection and BT transmission [INFERRED]
+
+---
+
+### 4. POWER SYSTEM
+
+**Battery:** Not specified. Smart rings typically use [INFERRED]:
+- Small lithium-polymer cell
+- Wireless (Qi) or magnetic charging
+**Battery life:** Not disclosed
+
+---
+
+### 5. HARDWARE SYSTEM SUMMARY — RING
+
+| Subsystem | Component | Status |
+|-----------|-----------|--------|
+| Form factor | Finger ring | Confirmed |
+| Input sensing | Capacitive touch surface | Confirmed (touch-sensitive); type [INFERRED] |
+| Connectivity | Bluetooth | [INFERRED] |
+| On-device MCU | Low-power embedded MCU | [INFERRED] |
+| Battery | Li-Po + charging (type unknown) | [INFERRED] |
+| Battery life | Not disclosed | Unknown |
+| Weight | Not disclosed | Unknown |
+| Sizing | Not disclosed | Unknown |
+| Included with glasses | Yes | Confirmed |
+| Sold separately | Not confirmed | Unknown |
+
+---
+
+---
+
+## SYSTEM ARCHITECTURE OVERVIEW
+
+```
+[Mira Ring]
+     |
+     | Bluetooth (touch gestures / commands)
+     |
+     v
+[Mira Glasses]
+     |         ^
+     |         | Display output (text via waveguide)
+     |         | Audio output (speakers)
+     |
+     | Bluetooth (audio stream + commands)
+     v
+[iPhone running Mira App]
+     |
+     | API calls (HTTPS)
+     v
+[Cloud AI — Google / Anthropic LLMs]
+     |
+     | Response text
+     v
+[Mira App] --> [Mira Glasses display]
+
+Local storage: Transcripts only, on iPhone
+Audio: Captured on glasses --> streamed to iPhone --> deleted immediately after transcription
+```
+
+---
+
+## KEY HARDWARE DESIGN DECISIONS & TRADEOFFS
+
+| Decision | Tradeoff |
+|----------|----------|
+| No camera | Faster AI pipeline; better privacy; simpler regulatory path; BUT limits future use cases |
+| Dual waveguide (not monocular) | Binocular display; more natural; BUT higher BOM cost and weight vs. single waveguide |
+| Audio-first, compute offloaded to phone | Keeps glasses light and battery life long; BUT requires constant Bluetooth connection to iPhone |
+| 1.74 high-index prescription lenses | Thinnest/lightest possible Rx lenses; BUT increases unit cost and complicates manufacturing (custom grind) |
+| 39g target weight | Below perception threshold for discomfort in all-day wear; BUT constrains battery capacity and display brightness |
+| 10–12hr battery | All-day single-charge use; differentiates from Meta Ray-Ban (~8hr); achievement at 39g suggests power-efficient display |
+| Ring controller (separate device) | Enables discreet input without touching glasses; BUT adds a second device to charge/manage/lose |
+
+---
+
+## NOTES FOR MANUFACTURING / ENGINEERING
+
+- Mira is actively seeking a Founding Hardware Operations Lead to build out supply chain and move from prototype to production — suggesting manufacturing processes are not yet fully stabilized
+- The waveguide display is the most technically complex and cost-critical subsystem; waveguide manufacturers of note include Lumus, WaveOptics (acquired by Snap), and DigiLens
+- Frame fabrication for smart glasses at this weight class likely requires Chinese OEM/ODM partners (Shenzhen for smart electronics integration; Danyang for optical lens grinding)
+- Prescription lens fulfillment adds a custom-manufacturing step that complicates standard consumer electronics fulfillment pipelines
+- OTA firmware updates are confirmed (App Store changelog references firmware update versions) — requires secure bootloader and BT DFU capability on the glasses MCU
