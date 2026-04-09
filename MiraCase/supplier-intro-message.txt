@@ -1,0 +1,59 @@
+Hello,
+
+We are a consumer electronics company. Our AI smart glasses system — Mira Glasses + Mira Ring — is currently shipping to customers. We are now sourcing a manufacturing partner for the MiraCase, a premium charging carry case that houses and simultaneously charges both devices.
+
+We need 2,000 units for our first production run, with ongoing orders of 500 units/month scaling to 2,000/month as we grow. We are looking for a long-term manufacturing partner.
+
+The MiraCase: a rigid clamshell case that holds the Mira Glasses and Mira Ring inside a soft-lined interior, and charges both simultaneously via an internal Li-Po battery (1,000–2,000mAh target) recharged through a USB-C port on the exterior. Two exterior design options are under consideration: (A) polished or brushed silver/chrome hard shell (die-cast zinc alloy or chrome-plated ABS), or (B) matte black with genuine leather or PU leather wrap over a rigid ABS inner shell. Interior lining is microfiber or velvet — full coverage, no hard surfaces contacting the lenses. Magnetic latch closure, metal hinge. LED indicator for charging status on exterior.
+
+Glasses charging interface: spring-loaded gold-plated pogo pin contacts mounted inside the case, aligned to the charging contacts on the Mira Glasses temple arm (we will supply the contact position drawing). Output 5V / ≥1A. Ring charging interface: magnetic contact dock recessed into the lower shell interior, 5V / 500mA output, compatible with ring sizes 7–14.
+
+Please confirm capability on:
+
+1. OEM/ODM full custom: interior layout (pogo pin rail position, ring dock recess), exterior shell (leather wrap or chrome/silver finish), branding, and LED window placement
+2. Pogo pin contact integration: gold-plated spring-loaded contacts, ±0.15mm positional accuracy, ≥10,000 cycle rated life — can you manufacture or source and integrate these?
+3. Simultaneous dual output charging management: internal Li-Po cell charged via USB-C while simultaneously outputting 5V to both glasses (pogo pins) and ring (magnetic dock)
+4. Battery: Li-Po cell with UN 38.3, IEC 62133-2, and UL 2054 certifications on file — can you supply certified cells or do we source separately?
+5. FCC Part 15B (SDoC) and CE (LVD + EMC + Battery Regulation) certification support for US and EU markets
+6. Shell construction: what materials and finishes can you produce in-house vs. what requires sub-suppliers? (Leather wrap, chrome plating, microfiber lining)
+
+Questions: Unit price at 2,000 units? Unit price at 500 units/month ongoing? Sample price and lead time for 5–10 engineering samples? Total lead time from PO to first production shipment?
+
+We are ready to move quickly. Please share your capabilities, any relevant product catalog (smart glasses cases, charging cases, leather cases), and your sample pricing.
+
+Thank you,
+筠欣
+TryMira
+微信: YunXin-Tyler + AnhPhu_Nguyen
+
+---
+
+您好，
+
+我们是一家消费电子公司，旗下AI智能眼镜系统（Mira眼镜 + Mira戒指）目前已向全球客户正式发货。我们现正寻找MiraCase的制造合作伙伴。MiraCase是一款高端充电收纳盒，可同时收纳并为两款设备充电。
+
+首批需要2,000件，随业务增长后续每月采购500至2,000件，寻求长期合作伙伴。
+
+MiraCase产品说明：硬壳翻盖式收纳盒，内部配有柔软绒面衬里，可放置Mira眼镜及Mira戒指，并通过内置锂聚合物电池（目标容量1,000–2,000mAh）经外部USB-C口充电后同时为两款设备充电。外观设计方案有两种：（A）抛光或拉丝银色/镀铬硬壳（压铸锌合金或镀铬ABS），或（B）哑光黑色，外裹真皮或PU皮，内胆为硬质ABS。内衬为超细纤维或绒面，全覆盖，镜片不接触任何硬质表面。磁吸锁扣，金属铰链，外部设有LED充电指示灯。
+
+眼镜充电接口：弹簧式镀金Pogo Pin触点，安装于盒内，与Mira眼镜镜腿上的充电接触点对齐（我们将提供接触点位置图纸），输出5V / ≥1A。戒指充电接口：嵌入下壳内部的磁吸接触底座，输出5V / 500mA，兼容7至14号戒圈。
+
+请确认以下能力：
+
+1. OEM/ODM全定制能力：内部布局（Pogo Pin导轨位置、戒指底座凹槽）、外壳饰面（皮革包覆或镀铬/银色饰面）、品牌定制及LED窗口位置
+2. Pogo Pin触点集成：镀金弹簧式触点，定位精度±0.15mm，额定使用寿命≥10,000次，是否具备自产或采购集成能力？
+3. 双路同步充电管理：USB-C输入为内置锂电池充电的同时，经Pogo Pin（5V）及磁吸底座（5V）同步为眼镜和戒指输出充电
+4. 电池：锂聚合物电芯，需具备UN 38.3、IEC 62133-2及UL 2054认证报告，是否可自供认证电芯，或需我方自行采购？
+5. FCC Part 15B（SDoC）及CE（低压指令 + EMC + 电池法规）认证支持，面向美国及欧盟市场
+6. 外壳制造：皮革包覆、镀铬处理、超细纤维内衬，哪些工序可在贵司内部完成，哪些需要外协供应商？
+
+请问：2,000件单价是多少？每月500件持续订单单价？5–10件工程样品的价格及交期？从订单确认到首批量产出货的总交期是多久？
+
+我们希望尽快推进。能否发送贵司能力介绍、相关产品目录（智能眼镜收纳盒、充电盒、皮质眼镜盒等）及样品报价？
+
+谢谢，
+筠欣
+TryMira
+微信: YunXin-Tyler + AnhPhu_Nguyen
+
+
