@@ -71,3 +71,7 @@ Example BLE Characteristic and Notification:
 - charging base
 
 Roughly 500 units a month, up to 2000 a month. 
+
+Currently paying $42.5 per unit, sourced from jstyle
+
+finding $9 - $16 per unit from other suppliers
