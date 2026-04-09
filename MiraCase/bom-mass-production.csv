@@ -4,7 +4,8 @@ RUN RATE,500 units / month,,,,,,,,,,,,,
 DATE,April 2026,,,,,,,,,,,,,
 VERSION,1.1 — Chinese manufacturer pricing,,,,,,,,,,,,,
 EXCHANGE RATE,1 USD = 7.25 CNY (April 2026),,,,,,,,,,,,,
-NOTE,"All shell components priced as injection-molded production parts (tooling NRE from sample phase already incurred). PCB priced at SMT production run. All prices reflect realistic Chinese factory / supplier quotes at 2000-unit volume. Tariff not included — see tariff note at bottom.",,,,,,,,,,,,,
+SHIPMENT ASSUMPTIONS,"2000 units per order; ~900kg gross weight; ~3.0 CBM volume; ocean LCL Shenzhen (Yantian/Chiwan) → Los Angeles/Long Beach; monthly batches of 500 units. Lithium battery (DG) shipment handling applied throughout.",,,,,,,,,,,,,
+NOTE,"All shell components priced as injection-molded production parts (tooling NRE from sample phase already incurred). PCB priced at SMT production run. All prices reflect realistic Chinese factory / supplier quotes at 2000-unit volume. Shipping, handling, tariff included as separate sections below.",,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
 Line #,Category,Component Name,Description / Spec,Internal PN,Qty per Unit,Total Qty (2000 units),UOM,Unit Cost CNY,Unit Cost USD,Extended Cost CNY (2000 units),Extended Cost USD (2000 units),Suggested Supplier,Lead Time,Notes
 ,,,,,,,,,,,,,,,
@@ -59,7 +60,8 @@ Line #,Category,Component Name,Description / Spec,Internal PN,Qty per Unit,Total
 7.2,Assembly,Functional test labor,"Per-unit OQC test on test fixture: USB-C in / glasses output V / ring output V / LED states / visual; ~8 min/unit",MC-TEST-001,1,2000,unit,¥5.80,$ 0.80,¥11,600,$ 1,600,Contract manufacturer — Shenzhen,—,Test fixture NRE listed in MP NRE below
 7.3,Assembly,IQC incoming inspection labor,"Per-lot incoming inspection: battery + PCB + shell + pogo pins per QC checklist; allocated per unit",MC-IQC-001,1,2000,unit,¥1.81,$ 0.25,¥3,620,$ 500,Contract manufacturer — Shenzhen,—,—
 ,,,,,,,,,,,,,,,
-UNIT COST SUMMARY (MP — 2000 units — CNY and USD),,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+UNIT COST SUMMARY — EX-FACTORY (MP — 2000 units),,,,,,,,,,,,,,,
 CATEGORY,UNIT COST CNY,UNIT COST USD,,,,,,,,,,,,
 Enclosure & Mechanical,¥91.51,$ 12.62,,,,,,,,,,,,
 Battery System,¥17.84,$ 2.46,,,,,,,,,,,,
@@ -68,36 +70,98 @@ Glasses Charging Interface,¥11.53,$ 1.59,,,,,,,,,,,,
 Ring Charging Interface,¥11.82,$ 1.63,,,,,,,,,,,,
 Packaging,¥9.42,$ 1.30,,,,,,,,,,,,
 Assembly + Test + IQC Labor,¥30.81,$ 4.25,,,,,,,,,,,,
-TOTAL UNIT COST (ex-factory — no NRE — no tariff),¥190.17,$ 26.23,,,,,,,,,,,,
+TOTAL EX-FACTORY UNIT COST (no NRE / no shipping / no tariff),¥190.17,$ 26.23,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
-TOTAL EXTENDED COST — 2000 UNITS (materials + labor),,,,,,¥380,340,,$ 52,459,,,,,
+TOTAL EXTENDED COST — 2000 UNITS (ex-factory only),,,,,,¥380340,,$ 52459,,,,,
 ,,,,,,,,,,,,,,,
 NRE CARRIED FROM SAMPLE PHASE (already incurred),,,,,,,,,,,,,,,
-NRE-01 to NRE-11 total (tooling + regulatory),Already paid at EVT/DVT — see bom-sample.csv,¥124,500 / $ 17,172 total NRE,,,,,,,,,,,,
+NRE-01 to NRE-11 total,Already paid — see bom-sample.csv,¥124500 / $ 17172 total NRE,,,,,,,,,,,,
 NRE amortized over 2000 units,¥62.25 / unit,$ 8.59 / unit,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
-MP-ONLY NRE (new items not in sample BOM — Chinese pricing),,,,,,,,,,,,,,,
-MP-NRE-01,Test fixture,"Functional test fixture for OQC line; validates all charging outputs + LED states simultaneously; semi-automated; built by Shenzhen fixture shop",,—,1,ea,¥4,350,$ 600,¥4,350,$ 600,Fixture shop — Shenzhen,14–21 days,Amortizes to ¥2.18 / $0.30 per unit over 2000 units
-MP-NRE-02,Packaging print setup,Retail box print plate setup fee,,—,1,lot,¥2,175,$ 300,¥2,175,$ 300,Packaging supplier — Shenzhen,—,One-time
-MP-NRE-03,Assembly jigs,"Shell alignment jig for pogo pin / lining bonding; ring dock jig",,—,1,lot,¥2,900,$ 400,¥2,900,$ 400,Fixture shop — Shenzhen,14–21 days,One-time
-TOTAL MP-ONLY NRE,¥9,425,$ 1,300,,,,,,,,,,,,
+MP-ONLY NRE (new — Chinese pricing),,,,,,,,,,,,,,,
+MP-NRE-01,Test fixture,OQC functional test fixture (semi-automated),,1,1,ea,¥4350,$ 600,¥4350,$ 600,Fixture shop — Shenzhen,14-21 days,Amortizes to $0.30/unit
+MP-NRE-02,Packaging print setup,Retail box print plates,,1,1,lot,¥2175,$ 300,¥2175,$ 300,Packaging supplier — Shenzhen,—,One-time
+MP-NRE-03,Assembly jigs,Shell alignment + ring dock installation jigs,,1,1,lot,¥2900,$ 400,¥2900,$ 400,Fixture shop — Shenzhen,14-21 days,One-time
+TOTAL MP-ONLY NRE,¥9425,$ 1300,,,,,,,,,,,,
 MP NRE amortized over 2000 units,¥4.71,$ 0.65,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
-FULLY LOADED UNIT COST SUMMARY (first order — 2000 units),,,,,,,,,,,,,,,
-,,CNY,USD,,,,,,,,,,,
-Ex-factory unit cost (materials + labor),,¥190.17,$ 26.23,,,,,,,,,,,
-Sample-phase NRE amortized,,¥62.25,$ 8.59,,,,,,,,,,,
-MP NRE amortized,,¥4.71,$ 0.65,,,,,,,,,,,
-TOTAL FULLY LOADED — FIRST 2000 UNITS,,¥257.13,$ 35.47,,,,,,,,,,,
-STEADY-STATE (reorders — NRE fully recovered),,¥190.17,$ 26.23,,,,,,,,,,,
+SECTION 8 — SHIPPING & HANDLING (per unit — 2000-unit ocean shipment),,,,,,,,,,,,,,,
+Basis: 2000 units / ~900kg gross / ~3.0 CBM / LCL ocean Shenzhen Yantian to LA-Long Beach / lithium battery DG (UN3481).,,,,,,,,,,,,,,,
+Note: Monthly 500-unit batches increase per-unit shipping cost ~30% vs full 2000-unit shipment due to fixed flat fees spread over fewer units.,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
-TARIFF NOTE,,,,,,,,,,,,,,,
-"HTS code (US import): TBD — likely 8504.40 (static converters / power banks) or 4202.12 (cases for spectacles). Section 301 tariffs on Chinese goods are elevated as of April 2026. Estimated tariff impact on ex-factory cost of $26.23/unit: at 25% = +$6.56/unit landed; at 145% = +$38.03/unit landed. Confirm HTS classification with licensed customs broker before MP order. At 145% tariff, consider whether finished goods vs. semi-finished components can be sourced or assembled outside China (e.g. Vietnam, Malaysia) to reduce tariff exposure.",,,,,,,,,,,,,,,
+Line #,Category,Cost Item,Description,,,,,Unit Cost CNY,Unit Cost USD,Extended CNY (2000 units),Extended USD (2000 units),Provider,Notes,
+,,,,,,,,,,,,,,,
+8.1,China Origin,Inland trucking factory to port,Shenzhen factory to Yantian/Chiwan port; DG flatbed or box truck; 2000-unit full allocation,,,,,¥0.80,$ 0.11,¥1600,$ 220,Road freight — Shenzhen logistics co.,Flat truck rate ~¥1600 split over 2000 units; higher per unit at 500-unit batches
+8.2,China Origin,Export customs declaration,China Customs HS filing; DG declaration; export license check — flat fee allocated per unit,,,,,¥0.44,$ 0.06,¥880,$ 121,Licensed freight forwarder — Shenzhen,Use forwarder with lithium battery DG experience
+8.3,China Origin,DG documentation — lithium battery,MSDS + UN38.3 summary + IMDG DG declaration + Class 9 shipper declaration; mandatory,,,,,¥0.29,$ 0.04,¥580,$ 80,Freight forwarder,Mandatory for all lithium battery ocean shipments
+8.4,China Origin,Origin CFS / port handling charges,Container freight station handling at Yantian; LCL consolidation fee,,,,,¥0.29,$ 0.04,¥580,$ 80,Port / CFS operator — Yantian,—
+8.5,Ocean Freight,Ocean freight LCL Shenzhen to LA/LB,3.0 CBM chargeable (volumetric over 900kg actual); Yantian to LA/Long Beach; ~18-22 day transit; ~$140/W-M ton,,,,,¥1.52,$ 0.21,¥3045,$ 420,COSCO / Evergreen / Maersk via forwarder,Rates fluctuate — lock in at booking; get quote from 2-3 carriers
+8.6,Ocean Freight,DG surcharge — ocean lithium battery,Class 9 DG surcharge per B/L from ocean carrier,,,,,¥0.44,$ 0.06,¥870,$ 120,Ocean carrier,Flat fee per B/L; allocated per unit
+8.7,Ocean Freight,Marine cargo insurance,All-risk cargo; 0.5% of declared value $52459; covers loss and damage in transit,,,,,¥0.94,$ 0.13,¥1885,$ 260,Marine insurer via forwarder,Strongly recommended; lithium battery cargo may need specialist insurer
+8.8,US Destination,ISF 10+2 filing,Importer Security Filing; mandatory for all US ocean imports; filed 24hr before vessel departure,,,,,¥0.29,$ 0.04,¥580,$ 80,US customs broker,Flat fee allocated per unit
+8.9,US Destination,US customs brokerage fee,Entry preparation; CBP filing; HTS classification; bond usage; ~$275 flat for this shipment,,,,,¥1.01,$ 0.14,¥2015,$ 278,Licensed US customs broker,Use broker with electronics + lithium battery entry experience; confirm HTS before filing
+8.10,US Destination,Merchandise processing fee (MPF),CBP fee; 0.3464% of entered value ($52459); min $29.66 / max $575.35,,,,,¥0.65,$ 0.09,¥1305,$ 180,CBP US Customs,Non-negotiable government fee
+8.11,US Destination,Harbor maintenance fee (HMF),0.125% of cargo value; CBP-collected; ocean imports only,,,,,¥0.22,$ 0.03,¥435,$ 60,CBP US Customs,Non-negotiable
+8.12,US Destination,Destination terminal handling (THC),Port of LA/LB terminal handling for LCL deconsolidation at destination CFS,,,,,¥0.58,$ 0.08,¥1160,$ 160,Port terminal / CFS operator LA/LB,—
+8.13,US Destination,Drayage port to 3PL warehouse,Trucking from LA/LB CFS to Mira 3PL warehouse; ~$600 flat for this cargo size,,,,,¥2.18,$ 0.30,¥4350,$ 600,Drayage carrier — LA/LB area,Varies by 3PL location; budget $500-800 per shipment
+8.14,US 3PL,3PL receiving and putaway,Unload / count / inspect / shelve at Mira 3PL; per-unit rate,,,,,¥1.45,$ 0.20,¥2900,$ 400,3PL — LA or Bay Area,Standard 3PL receiving; $0.15-0.25/unit typical
+8.15,US 3PL,3PL storage 30-day average,Monthly storage while cases await kitting into Mira Glasses boxes,,,,,¥1.09,$ 0.15,¥2175,$ 300,3PL,Minimize by aligning case delivery to glasses delivery schedule
+8.16,US 3PL,3PL kitting — incorporate case into Mira kit box,Labor to place MiraCase into Mira Glasses retail box; seal; label; ~2 min per unit at 3PL labor rate,,,,,¥3.63,$ 0.50,¥7250,$ 1000,3PL,Eliminated if CM in Shenzhen pre-kits case into glasses box before export — worth exploring
+8.17A,Last Mile,Last mile — standalone shipment (if ever sold separately),FedEx Ground or UPS Ground; zone 5 average; ~0.5 lb package; rate if MiraCase ships as standalone,,,,,¥54.38,$ 7.50,¥108750,$ 15000,FedEx / UPS / USPS,Use only if case ships separately from glasses; if always in kit use 8.17B
+8.17B,Last Mile,Last mile — kit allocation (Mira Glasses + Case shipped together),MiraCase adds ~250g to glasses kit; allocated share of $9.50 avg kit carrier cost × (250g/750g total kit weight),,,,,¥22.99,$ 3.17,¥45980,$ 6340,FedEx / UPS via Mira carrier account,Expected default — case ships inside Mira Glasses box; use this line for financial planning
+,,,,,,,,,,,,,,,
+SHIPPING SUBTOTAL — OCEAN + US HANDLING (excl. last mile),,,,,,,,,$ 1.28,,,$ 2559,,Per unit to 3PL door
+SHIPPING SUBTOTAL — INCL. LAST MILE KIT ALLOCATION (8.17B),,,,,,,,,$ 4.45,,,$ 8899,,Per unit fully delivered to end customer (kit basis)
+SHIPPING SUBTOTAL — INCL. LAST MILE STANDALONE (8.17A),,,,,,,,,$ 8.78,,,$ 17559,,Per unit if shipped as standalone product
+,,,,,,,,,,,,,,,
+SECTION 9 — TARIFF & DUTIES,,,,,,,,,,,,,,,
+HTS classification: Two likely codes — confirm with licensed customs broker before MP order.,,,,,,,,,,,,,,,
+Option 1: HTS 4202.12 — cases for spectacles / eyewear. Base MFN rate ~5.3% + Section 301 additional.,,,,,,,,,,,,,,,
+Option 2: HTS 8504.40 — static converters / power banks. Base MFN rate ~0% + Section 301 additional.,,,,,,,,,,,,,,,
+Tariff basis: Dutiable value = transaction value (ex-factory price) = $26.23/unit per US CBP standard.,,,,,,,,,,,,,,,
+As of April 2026 executive orders have escalated Section 301 tariffs on Chinese goods — confirm current applicable rate with broker.,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Line #,Category,Cost Item,Tariff Rate Basis,,,,,Unit Cost CNY,Unit Cost USD,Extended CNY (2000 units),Extended USD (2000 units),Notes,,
+9.1,Tariff,Scenario A — base MFN only (pre-301),5.3% x $26.23 — HTS 4202.12 base only,,,,,¥10.10,$ 1.39,¥20195,$ 2785,Unlikely scenario — Section 301 almost certainly applies; shown for reference only,,
+9.2,Tariff,Scenario B — 25% (lower bound),25% x $26.23 — Section 301 + base at lower classification,,,,,¥47.47,$ 6.56,¥94940,$ 13115,Lower bound; confirm with broker if favorable HTS classification available,,
+9.3,Tariff,Scenario C — 35% (current planning estimate),35% x $26.23 — consistent with ring tariff rate in current Mira hardware cost model,,,,,¥66.40,$ 9.18,¥132795,$ 18351,Best current estimate pending HTS confirmation — use for financial planning,,
+9.4,Tariff,Scenario D — 145% (worst case),145% x $26.23 — full executive order escalation rate for Chinese goods (April 2026),,,,,¥275.63,$ 38.03,¥551255,$ 76063,Worst case — at this rate landed cost exceeds viable margin; sourcing outside China becomes necessary,,
+,,,,,,,,,,,,,,,
+TARIFF MITIGATION OPTIONS,,,,,,,,,,,,,,,
+Option 1,First Sale Valuation,If Mira owns and consigns components to CM for assembly the dutiable value may be the component cost not finished goods price — requires broker structuring,,,,,,,,,,,,,,
+Option 2,Third-Country Final Assembly,Source components from China at lower/zero tariff as unassembled components; final assembly in Vietnam or Malaysia; may qualify for MFN base rates if sufficient value-add meets rules of origin,,,,,,,,,,,,,,
+Option 3,Bonded Warehouse / FTZ,Import into US Foreign Trade Zone; defer tariff until goods leave FTZ; cash flow tool — does not reduce the rate,,,,,,,,,,,,,,
+Option 4,HTS Engineering,Work with customs broker to confirm most favorable defensible HTS classification; file CBP binding ruling request for certainty,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+FULLY LOADED LANDED COST SUMMARY (per unit — first 2000-unit order),,,,,,,,,,,,,,,
+,,USD Scenario B (25% tariff),USD Scenario C (35% tariff),USD Scenario D (145% tariff),,,,,,,,,
+Ex-factory (materials + labor),,$ 26.23,$ 26.23,$ 26.23,,,,,,,,,
+NRE amortized (sample + MP),,$ 9.24,$ 9.24,$ 9.24,,,,,,,,,
+Shipping to 3PL door,,$ 1.28,$ 1.28,$ 1.28,,,,,,,,,
+Last mile — kit allocation,,$ 3.17,$ 3.17,$ 3.17,,,,,,,,,
+US import tariff,,$ 6.56,$ 9.18,$ 38.03,,,,,,,,,
+TOTAL LANDED COST PER UNIT (kit last mile — first 2000 units),,$ 46.48,$ 49.10,$ 77.95,,,,,,,,,
+,,,,,,,,,,,,,,,
+STEADY-STATE LANDED COST (reorders — NRE fully recovered),,,,,,,,,,,,,,,
+,,USD Scenario B (25% tariff),USD Scenario C (35% tariff),USD Scenario D (145% tariff),,,,,,,,,
+Ex-factory,,$ 26.23,$ 26.23,$ 26.23,,,,,,,,,
+Shipping to 3PL door,,$ 1.28,$ 1.28,$ 1.28,,,,,,,,,
+Last mile — kit allocation,,$ 3.17,$ 3.17,$ 3.17,,,,,,,,,
+US import tariff,,$ 6.56,$ 9.18,$ 38.03,,,,,,,,,
+TOTAL STEADY-STATE LANDED (kit last mile),,$ 37.24,$ 39.86,$ 68.71,,,,,,,,,
+,,,,,,,,,,,,,,,
+COST BREAKDOWN SUMMARY (steady-state — Scenario C 35% tariff — kit last mile),,,,,,,,,,,,,,,
+Ex-factory materials + labor,$ 26.23,65.8% of landed,,,,,,,,,,,,
+US import tariff (35%),$ 9.18,23.0% of landed,,,,,,,,,,,,
+Last mile — kit allocation,$ 3.17,7.9% of landed,,,,,,,,,,,,
+Shipping to 3PL door,$ 1.28,3.2% of landed,,,,,,,,,,,,
+TOTAL LANDED (steady-state),$ 39.86,100%,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
 COST COMPARISON — SAMPLE vs. MASS PRODUCTION (Chinese pricing),,,,,,,,,,,,,,,
-,,Sample (EVT — 10 units),Mass Production (2000 units),,,,,,,,,,
-Unit cost — materials + labor (no NRE),,¥595.26 / $ 82.09,¥190.17 / $ 26.23,,,,,,,,,,
-Unit cost reduction,,—,68% lower than sample,,,,,,,,,,
-Fully loaded (NRE amortized),,¥657.55 / $ 90.68,¥257.13 / $ 35.47,,,,,,,,,,
-Primary cost drivers at sample,,"CNC/SLA prototype shells (¥348/unit); hand assembly labor (¥109/unit); prototype PCB (¥58/unit)",,,,,,,,,,,,
-Primary cost drivers at MP,,"Injection-molded shells (¥36.25/unit combined); SMT + mechanical labor (¥23.20/unit); battery cell (¥14.50/unit)",,,,,,,,,,,,
+,,Sample (EVT — 10 units),Mass Production (2000 units — steady-state),,,,,,,,,,
+Unit cost — materials + labor (no NRE),,$ 82.09,$ 26.23,,,,,,,,,,
+Fully loaded ex-factory (NRE amortized),,$ 90.68,$ 35.47,,,,,,,,,,
+Fully loaded landed (35% tariff — kit last mile — steady-state),,N/A,$ 39.86,,,,,,,,,,
+Primary cost drivers at sample,,CNC/SLA shells ($48/unit combined); hand assembly ($15/unit); prototype PCB ($8/unit),,,,,,,,,,,,
+Primary cost drivers at MP ex-factory,,Injection-molded shells ($5.00/unit combined); SMT + assembly labor ($3.20/unit); battery cell ($2.00/unit),,,,,,,,,,,,
+Primary cost drivers at MP landed (35% tariff),,Tariff ($9.18/unit = 23% of landed cost); kit last mile ($3.17/unit); 3PL handling ($0.85/unit),,,,,,,,,,,,
