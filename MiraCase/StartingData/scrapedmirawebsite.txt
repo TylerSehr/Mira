@@ -1,0 +1,416 @@
+================================================================================
+MIRA WEBSITE - EXTRACTED PRODUCT CONTENT
+Source: trymira.com (homepage + product page)
+================================================================================
+
+
+================================================================================
+SECTION 1: ANNOUNCEMENTS & PROMOTIONS
+================================================================================
+
+Batch 1 is sold out. Batch 2 pre-orders shipping now.
+
+Limited Time Sale: Save $45 on your order
+
+================================================================================
+SECTION 2: HERO / TAGLINE
+================================================================================
+
+Product Name: MIRA
+Tagline: "Glasses that remember everything"
+Page Title: MIRA - Glasses That Remember Everything
+
+Hero Headline: Remember everything
+Hero Subheadline: AI glasses with infinite memory and instant answers.
+
+Section Headline: The assistant you've always wanted
+
+Feature Cards:
+- "Capture your entire day" — 10 hours of battery life
+- "Translate in real time" — 60+ languages supported
+- "Built to go anywhere" — Only 39 grams
+
+================================================================================
+SECTION 3: PRODUCT OVERVIEW — GLASSES, RING & APP
+================================================================================
+
+Section Headline: Meet your second brain
+Subheadline: Glasses, ring, and app working together seamlessly
+
+--- GLASSES ---
+Description: Dual waveguide displays and speakers crystal-clear audio. No camera. Unlimited recording, only 39 grams.
+
+Key Stats:
+- Battery Life: 10hrs
+- Weight: 39g
+- Full Charge: 40min
+- Speakers: Dual
+
+--- RING ---
+Description: Discreet gesture control. Answer calls, activate AI, and navigate — all without touching your glasses.
+
+Features:
+- Gesture control
+- Seamless pairing
+- Water resistant up to 50 meters
+
+--- APP ---
+Description: Your entire life, searchable. Review your day, customize your AI, and find any moment instantly.
+
+Features:
+- Instant search
+- Custom AI settings
+- One month of free trial with unlimited use
+
+CTA text: Everything works together, right out of the box
+
+================================================================================
+SECTION 4: SECTION HEADLINES / MARKETING COPY
+================================================================================
+
+"Superhuman intelligence, in under a second"
+
+"Answer anything, remember everything"
+
+"The assistant you've always wanted"
+
+"Glasses with superpowers."
+
+"What's in the box?"
+
+Press coverage from: The New York Times, NBC, Wired, The Verge, TechCrunch, Yahoo Finance, Lightspeed
+
+Funding: Mira Secures $6.6M Seed Round Led By General Catalyst
+
+NYT Article: "Two Students Created Face Recognition Glasses. It Wasn't Hard."
+NBC Article: "Harvard Students Show How Smart Glasses Can Be Used to Get Your Personal Info with a Glance"
+Wired Article: "Gear News of the Week: Always-Recording Smart Glasses, and Google Teases a New Nest Speaker"
+Lightspeed Article: "Celebrating the 2026 Game Changers — Building Through Chaos"
+
+================================================================================
+SECTION 5: PRICING
+================================================================================
+
+Non-Prescription Glasses and Ring:
+- Sale Price: $649
+- Original Price: $694 (crossed out)
+- Shipping: March. 14-day free returns.
+
+Prescription Glasses and Ring:
+- Sale Price: $799
+- Original Price: $844 (crossed out)
+- Next prescription batch shipping in early April.
+- Status: Sold Out (at time of capture)
+
+Subscription:
+- Core features: Unlimited and free (unlimited meeting transcription, note-taking, translation, and more)
+- Optional premium tier: $20 per month for unlimited AI assistant access
+- Early customers: One-month trial of unlimited AI queries included
+
+================================================================================
+SECTION 6: PRODUCT PAGE — MIRA GLASSES & RING
+================================================================================
+
+Product Title: MIRA Glasses & Ring
+Description: Batch 1 is sold out. Place your order for Batch 2. iOS only.
+
+Ring Size Option: Index Finger Ring Size
+  - "Send it later" or "I know my ring size"
+
+================================================================================
+SECTION 7: TECH SPECIFICATIONS
+================================================================================
+
+--- DIMENSIONS ---
+- Glasses: 140mm (W) x 45mm (H) x 150mm (D)
+- Width (total): 145.6mm (5.73 inches) wide
+- Weight: 39g
+
+--- FRAME ---
+- Color: Matte Black
+- Bridge: Universal bridge fit
+- Nosepads: 2 replaceable nosepads included (3 in box)
+
+--- LENS & DISPLAY ---
+- Lens color: Clear
+- Prescription support: Non-prescription / Prescription versions available
+- Lens index: 1.74 (thinnest, lightest lenses available)
+- Optics technology: Dual waveguide display
+- Fully private display: Yes
+- Resolution: 640x480
+- Field of View (FoV): 28 degrees
+- Refresh rate: 60Hz
+- Brightness: Up to 2000 nits
+- Display color: Green
+- Passthrough: 98%
+- Coating: Anti-reflective, Anti-fingerprint
+
+--- AUDIO & MIC ---
+- Speakers: Dual in-built speakers
+- Microphone: Dual MEMS microphones
+- Audio privacy: Clear, discreet listening
+
+--- AI FEATURES ---
+- Second brain: Built to be your second brain
+- Memory: Unlimited Recording/Memory
+- Recording control: Nothing recorded unless you opt in
+- Translation: 60+ languages
+
+--- BATTERY & CHARGING ---
+- Battery life: 10 hours
+- Charging time: 40 minutes
+- Charging type: Magnetic charging
+- Adapter: USB-C charging adapter included
+- All-day use: Designed for all-day wear
+
+--- SENSORS & WEAR ---
+- Automatic wear detection: Yes
+- Sensors: Accelerometer, Gyroscope, Environmental Light Sensor
+
+--- CONNECTIVITY & DURABILITY ---
+- Bluetooth: BLE 5.2
+- Water resistance: IPX2 (glasses), 5ATM ring (waterproof to 50 meters)
+- Sustainability: Precision manufactured, cutting waste. Packed in 100% recyclable cardboard.
+
+--- IN THE BOX ---
+- MIRA Glasses
+- Control ring
+- Sleek glasses case
+- 3 replaceable nosepads
+- Microfiber cloth
+- Magnetic charger + USB-C adapter
+- Magnetic ring charger
+
+================================================================================
+SECTION 8: USE CASES
+================================================================================
+
+Section Headline: "Glasses with superpowers."
+
+IN MEETINGS:
+Headline: Capture the room without breaking eye contact.
+- Automatic notes you can search and export
+- Smart prompts for what to ask or say next
+- Instant memory recall of key points discussed
+
+IN DAILY LIFE:
+Headline: Access information seamlessly as you go about your day.
+- Real-time answers based on what you're seeing or asking
+- Hands-free help when your phone isn't convenient
+- Sub-second responses tuned to your routines
+
+WHEN TRAVELING:
+Headline: Communicate wherever you are, whatever the language.
+- Live translation across 60+ languages
+- Contextual prompts for transit, dining, and etiquette
+
+WITH YOUR KNOWLEDGE:
+Headline: Bring your own documents and workflows into view.
+- Custom knowledge uploads for contextual answers
+- Link project docs, CRM notes, and playbooks
+- Granular controls for retention and deletion
+
+================================================================================
+SECTION 9: FREQUENTLY ASKED QUESTIONS
+================================================================================
+
+Q: How wide are the glasses?
+A: They are 145.6mm (5.73 inches) wide.
+
+Q: What does the warranty look like?
+A: We offer a one-year warranty!
+
+Q: Can I order with a prescription?
+A: Yes! We ship MIRA with an option to specify your prescription. The next prescription batch ships in early April. Please note that prescription lenses are custom-made with 1.74 index lenses (the thinnest, lightest lenses available) and are non-refundable and non-reworkable once ordered.
+
+Q: What can they do for me?
+A: They can answer any question, translate any language in real time, do math instantly (e.g., 382×193), and give you perfect memory of everything you've ever talked about.
+
+Q: What is the hardware like?
+A: MIRA glasses with a dual waveguide display, microphone, and lasts 10 hours on a single charge. No camera. The display is fully private. MIRA AI listens to your day and proactively gives you answers, insights, and help through the display.
+
+Q: How do you handle privacy?
+A: We take your privacy seriously. Your conversations are never used for training or sold. All audio is instantly and permanently deleted, and only the transcription is saved for your use.
+
+Q: How does this compare to Ray-Ban Meta AI Glasses?
+A: Mira glasses can listen to your entire day, helping you to remember everything, and assisting you in real time, in a personalized way. Meta's glasses only help when you directly ask, and doesn't know your history or preferences.
+
+Q: What is the return policy?
+A: We offer a 14-day return policy if you don't like them or there's a functionality issue. However, prescription lenses are non-refundable and non-reworkable once ordered, as they are custom-made specifically for your prescription.
+
+Q: What languages can I translate?
+A: MIRA supports 60+ languages including Afrikaans, Albanian, Arabic, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Marathi, Norwegian, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
+
+Q: What colors does it come in?
+A: Any color you want, as long as it's Black.
+
+Q: Is this product HSA eligible?
+A: Not yet, but we're working on it. Our team is actively pursuing HSA eligibility. While we can't give an exact date, making this product HSA-eligible is a priority. You can still purchase it with a regular debit or credit card today, and we'll update this page as soon as HSA eligibility is available.
+
+Q: When will my order ship?
+A: Batch 1 ships at the end of January. Batch 2 non-prescription ships end of February. Prescription orders ship in early April. You'll receive a confirmation email with tracking details as soon as your order is on its way.
+
+Q: Is there a subscription to use the glasses?
+A: The core features are unlimited and free, including unlimited meeting transcription, note-taking, translation, and more. We have an optional tier for unlimited AI assistant access for $20 per month. Early customers receive a one-month trial of unlimited AI queries.
+
+Q: Do you support Android?
+A: We only support iOS right now. We don't have a timeline nailed down yet for the Android app, but it should be in the next few months.
+
+================================================================================
+SECTION 10: RING CONTROLLER — KEY DETAILS
+================================================================================
+
+The MIRA Ring is a control ring worn on the index finger that pairs with the MIRA Glasses.
+
+Functions:
+- Gesture control to interact with the glasses
+- Answer calls
+- Activate AI
+- Navigate menus and content
+- All without touching the glasses
+
+Physical specs:
+- Water resistant up to 50 meters (5ATM rating)
+- Seamless pairing with MIRA Glasses
+- Charged via magnetic ring charger (included in box)
+
+Ring size options:
+- "Send it later" (measure and submit after purchase)
+- "I know my ring size" (enter at checkout)
+
+================================================================================
+SECTION 11: GLASSES HARDWARE — KEY DETAILS
+================================================================================
+
+Display Technology:
+- Dual waveguide display
+- Resolution: 640x480
+- Field of View: 28 degrees
+- Refresh rate: 60Hz
+- Brightness: Up to 2000 nits
+- Display color: Green
+- Passthrough: 98% (essentially see-through)
+- Fully private display — only visible to wearer
+
+Audio:
+- Dual in-built speakers
+- Dual MEMS microphones
+- Clear, discreet listening
+
+No camera — MIRA explicitly does NOT have a camera.
+
+Recording:
+- Unlimited audio recording capability
+- Nothing recorded unless user opts in
+- All audio instantly and permanently deleted after transcription
+- Only the transcription is saved
+
+Connectivity:
+- Bluetooth BLE 5.2
+- Pairs with iPhone (iOS only; Android support planned)
+
+Build:
+- Weight: 39g
+- Dimensions: 140mm (W) x 45mm (H) x 150mm (D)
+- Color: Matte Black
+- Universal bridge fit
+- IPX2 water resistance
+- Automatic wear detection
+- Sensors: Accelerometer, Gyroscope, Environmental Light Sensor
+
+Battery:
+- 10 hours battery life
+- 40-minute full charge
+- Magnetic charging
+- USB-C adapter included
+
+Lens options:
+- Non-Prescription (clear lenses)
+- Prescription (1.74 index — thinnest, lightest available)
+- Lens coating: Anti-reflective and anti-fingerprint
+
+================================================================================
+SECTION 12: APP FEATURES
+================================================================================
+
+The MIRA app (iOS only) connects to the glasses and ring.
+
+Features:
+- Your entire life, searchable
+- Review your day
+- Customize your AI
+- Find any moment instantly
+- Instant search across all recorded content
+- Custom AI settings
+- One month free trial with unlimited use
+
+AI Capabilities:
+- Proactive answers and insights without being asked
+- Real-time translation (60+ languages)
+- Real-time answers based on what you're experiencing
+- Meeting transcription and notes (automatic, searchable, exportable)
+- Smart prompts for meetings
+- Sub-second response times
+- Custom knowledge uploads (documents, CRM notes, playbooks)
+- Granular controls for retention and deletion
+- Math calculations (e.g., 382×193)
+- Perfect memory recall of conversations and meetings
+- Personalized to your history and preferences
+
+Subscription tiers:
+- Free tier: Unlimited meeting transcription, note-taking, translation
+- Premium tier: $20/month for unlimited AI assistant access
+- Early customers: 1-month free trial of unlimited AI queries
+
+================================================================================
+SECTION 13: PRIVACY
+================================================================================
+
+- Conversations are never used for training or sold
+- All audio is instantly and permanently deleted
+- Only the transcription is saved for the user's own use
+- Recording opt-in only — nothing recorded unless user enables it
+- No camera on the glasses
+
+================================================================================
+SECTION 14: COMPANY INFO & CONTACT
+================================================================================
+
+Brand: MIRA
+Tagline: "Glasses that remember everything"
+Tagline 2: "Built with care for attention, memory, and real relationships."
+
+Contact: team@trymira.com
+Website: trymira.com
+Shop: shop.trymira.com
+
+Social Media:
+- Instagram: @trymira_
+- X (Twitter): @miraglasses
+- Facebook: /people/The-Halo-Nova/61581272656748/
+- YouTube: /channel/UCnUNkELPPpbjhD0413izukA
+- Discord: discord.gg/f6M4ySYRgW
+
+Copyright: © 2026 MIRA. All rights reserved.
+
+================================================================================
+SECTION 15: SHIPPING & AVAILABILITY
+================================================================================
+
+Batch 1: Sold out (shipped end of January)
+Batch 2 Non-Prescription: Shipping end of February / March
+Batch 2 Prescription: Shipping in early April (sold out at time of capture)
+
+Platform: iOS only
+Android: Coming in the next few months (no firm date)
+
+Return policy: 14-day returns (non-prescription only)
+Warranty: 1 year
+
+Prescription notes:
+- Custom-made with 1.74 index lenses
+- Non-refundable and non-reworkable once ordered
+
+================================================================================
+END OF EXTRACTED CONTENT
+================================================================================

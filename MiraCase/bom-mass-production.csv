@@ -1,0 +1,103 @@
+BOM TYPE,Mass Production (MP),,,,,,,,,,,,,
+TOTAL ORDER QTY,2000 units,,,,,,,,,,,,,
+RUN RATE,500 units / month,,,,,,,,,,,,,
+DATE,April 2026,,,,,,,,,,,,,
+VERSION,1.1 — Chinese manufacturer pricing,,,,,,,,,,,,,
+EXCHANGE RATE,1 USD = 7.25 CNY (April 2026),,,,,,,,,,,,,
+NOTE,"All shell components priced as injection-molded production parts (tooling NRE from sample phase already incurred). PCB priced at SMT production run. All prices reflect realistic Chinese factory / supplier quotes at 2000-unit volume. Tariff not included — see tariff note at bottom.",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Line #,Category,Component Name,Description / Spec,Internal PN,Qty per Unit,Total Qty (2000 units),UOM,Unit Cost CNY,Unit Cost USD,Extended Cost CNY (2000 units),Extended Cost USD (2000 units),Suggested Supplier,Lead Time,Notes
+,,,,,,,,,,,,,,,
+1.1,Enclosure,Upper shell — injection molded,"Injection-molded ABS; per production tooling; Option A: vacuum-metallized chrome; Option B: leather-bond textured surface; matte black or silver",MC-SHELL-U-001,1,2000,ea,¥15.95,$ 2.20,¥31,900,$ 4,400,Injection mold OEM — Shenzhen / Dongguan,14–21 days production run,Tooling NRE paid at EVT
+1.2,Enclosure,Lower shell — injection molded,"Injection-molded ABS; all internal features: PCB pocket / battery cavity / USB-C cutout / LED window / pogo carrier seat / ring dock recess",MC-SHELL-L-001,1,2000,ea,¥20.30,$ 2.80,¥40,600,$ 5,600,Injection mold OEM — Shenzhen / Dongguan,14–21 days,More complex tool than upper; higher unit cost
+1.3,Enclosure,Leather / PU wrap — upper,"PU leather or genuine leather; black; ≥1.0mm; die-cut to production pattern; bonded at assembly; Option B only",MC-WRAP-U-001,1,2000,ea,¥15.95,$ 2.20,¥31,900,$ 4,400,Leather goods OEM — Baiyun Leather Market Guangzhou / Shenzhen leather district,10–14 days,Skip for Option A (chrome shell) — saves $2.20/unit
+1.4,Enclosure,Leather / PU wrap — lower,"Same as 1.3; die-cut lower shell profile; USB-C and LED apertures pre-punched",MC-WRAP-L-001,1,2000,ea,¥15.95,$ 2.20,¥31,900,$ 4,400,Leather goods OEM — Guangzhou / Shenzhen,10–14 days,Skip for Option A
+1.5,Enclosure,Interior lining — upper,"Microfiber; charcoal/black; die-cut and thermo-formed; pre-bonded with 3M 9080; full coverage of all lens-contact surfaces",MC-LINING-U-001,1,2000,ea,¥5.08,$ 0.70,¥10,160,$ 1,400,Fabric converter — Zhongda Fabric Market Guangzhou,7–10 days,—
+1.6,Enclosure,Interior lining — lower,"Microfiber; charcoal/black; die-cut with all apertures; pre-bonded",MC-LINING-L-001,1,2000,ea,¥5.08,$ 0.70,¥10,160,$ 1,400,Fabric converter — Guangzhou,7–10 days,—
+1.7,Enclosure,Hinge assembly,"Dual barrel metal hinge; stainless steel; ≥5000 cycles; 90°–110° open angle; standard glasses case hardware",MC-HINGE-001,1,2000,set,¥3.99,$ 0.55,¥7,980,$ 1,100,Hardware OEM — Wuhua Hardware City Shenzhen / Dongguan hardware market,7–10 days,Standard glasses case hinge; co-source with glasses hardware for cost
+1.8,Enclosure,Magnetic latch,"Concealed N35 neodymium magnet pair; embedded in shell lip; ≥8N holding force",MC-LATCH-001,1,2000,set,¥2.54,$ 0.35,¥5,080,$ 700,Hardware OEM — Shenzhen,7–10 days,—
+1.9,Enclosure,Glasses seating cradle / EVA insert,"EVA foam; 45kg/m³; die-cut and CNC-contoured to Mira Glasses profile; positions glasses ±0.5mm over pogo pins; bonded to lower shell",MC-CRADLE-001,1,2000,ea,¥5.08,$ 0.70,¥10,160,$ 1,400,Foam fabricator — Shenzhen / Dongguan,7–10 days,Die tool for foam included in tooling NRE
+1.10,Enclosure,Silicone bumpers,"Silicone; 60A Shore; black; adhesive-backed; injection-molded; 4× per unit",MC-BUMPER-001,4,8000,ea,¥0.65,$ 0.09,¥5,200,$ 717,Silicone parts OEM — Shenzhen / Dongguan,7–10 days,—
+1.11,Enclosure,Assembly screws — M2 × 4mm,M2 × 4mm self-tapping pan head; stainless steel A2,MC-SCREW-001,6,12000,ea,¥0.07,$ 0.01,¥840,$ 116,Hardware market — Shenzhen,Stock,—
+1.12,Enclosure,Structural adhesive,"3M DP100 or equiv; per-unit allocation from bulk cartridge",MC-ADH-001,1,2000,unit,¥0.87,$ 0.12,¥1,740,$ 240,3M distributor — Shenzhen,Stock,—
+,,,,,,,,,,,,,,,
+2.1,Battery,Li-Po cell — 1500mAh,"Lithium-polymer pouch cell; 1500mAh / 3.7V / 5.55Wh; flat form factor; UN38.3 + IEC62133-2 + UL2054 certified; date code ≤3 months at receipt",MC-CELL-001,1,2000,ea,¥14.50,$ 2.00,¥29,000,$ 4,000,"Cell supplier — Shenzhen (GREPOW Bao'an / Great Power Huizhou / Lishen Tianjin / EVE Huizhou)",7–14 days,Require UN38.3 + IEC62133-2 + UL2054 certs per lot; inspect date codes at IQC
+2.2,Battery,Protection circuit module (PCM),"1S Li-Po PCM; overvoltage ≤4.25V; undervoltage ≥2.5V; overcurrent ≥3A; short-circuit protection; integrated on flex tab or discrete module",MC-PCM-001,1,2000,ea,¥2.54,$ 0.35,¥5,080,$ 700,PCM supplier — Shenzhen (Lixing / Atl-tech / standard Shenzhen electronics market),5–7 days,Lot test report required; critical safety component
+2.3,Battery,Battery connector,"JST PH 2.0mm; 2-pin female; 26AWG leads 80mm; keyed; red/black",MC-BATT-CON-001,1,2000,ea,¥0.58,$ 0.08,¥1,160,$ 160,LCSC.com / JST distributor — Shenzhen,Stock,—
+2.4,Battery,Battery adhesive pad,"3M 9080 double-sided foam tape; 2mm; pre-cut to cell footprint",MC-BATT-PAD-001,1,2000,ea,¥0.22,$ 0.03,¥440,$ 61,3M distributor — Shenzhen,Stock,—
+,,,,,,,,,,,,,,,
+3.1,PCB & Electronics,Main PCB — bare board,"FR4 1.6mm 2-layer; ENIG finish; lead-free RoHS; IPC Class 2; SMT top side preferred; all production footprints",MC-PCB-001,1,2000,ea,¥11.60,$ 1.60,¥23,200,$ 3,200,"PCB fab — Kinwong / Fastprint / Suntak / JLCPCB (Jiangxi) — all Shenzhen-region",5–7 days,ENIG finish for reliable pogo contact pads; IPC-A-600 Class 2 inspection
+3.2,PCB & Electronics,Charge management IC,"IP5306 / IP5328P / FM5324 or approved equiv; 5V boost; Li-Po charge + dual output; pass-through; LED fuel gauge",MC-IC-CHG-001,1,2000,ea,¥2.75,$ 0.38,¥5,500,$ 759,LCSC.com / authorized distributor — Shenzhen,Stock,Source from LCSC or direct from IC supplier (INJOINIC for IP5306); counterfeit risk — verify chip markings on receipt
+3.3,PCB & Electronics,USB-C receptacle,"USB-C 2.0 female SMD; power-only; ≥5A; ≥10000 cycles; USB-IF compliant connector",MC-USB-C-001,1,2000,ea,¥1.01,$ 0.14,¥2,020,$ 279,Korean connector brands (GCT / Amphenol / Molex) via LCSC or Shenzhen distributor,Stock,USB-IF cert doc required from supplier
+3.4,PCB & Electronics,ESD protection array — USB-C input,"TVS array; IEC 61000-4-2 Level 4; USB-C compatible",MC-ESD-001,1,2000,ea,¥0.87,$ 0.12,¥1,740,$ 240,LCSC.com / Nexperia Shenzhen distributor,Stock,—
+3.5,PCB & Electronics,EMI ferrite bead — USB-C input,"600Ω @ 100MHz; ≥2A; 0805 SMD",MC-FERRITE-001,1,2000,ea,¥0.29,$ 0.04,¥580,$ 80,LCSC.com / Murata or TDK via Shenzhen distributor,Stock,—
+3.6,PCB & Electronics,Input filter capacitors,"100nF 0402 X5R 10V ×2; 10µF 0805 X5R 10V ×1",MC-CAP-IN-001,3,6000,ea,¥0.15,$ 0.02,¥870,$ 120,LCSC.com,Stock,—
+3.7,PCB & Electronics,Output decoupling capacitors,"100nF 0402 X5R 10V; ×4 total",MC-CAP-OUT-001,4,8000,ea,¥0.11,$ 0.015,¥870,$ 120,LCSC.com,Stock,—
+3.8,PCB & Electronics,Charge IC supporting passives,"~12× 0402 resistors and capacitors per IC reference design",MC-PASSIVES-001,12,24000,ea,¥0.11,$ 0.015,¥2,640,$ 364,LCSC.com,Stock,—
+3.9,PCB & Electronics,RGB LED,"0603 SMD RGB; common cathode",MC-LED-001,1,2000,ea,¥0.44,$ 0.06,¥880,$ 121,LCSC.com / Everlight / Kingbright — Shenzhen,Stock,—
+3.10,PCB & Electronics,LED current-limiting resistors,"0402 SMD; ×3 per unit; values per LED Vf",MC-LED-RES-001,3,6000,ea,¥0.04,$ 0.006,¥220,$ 30,LCSC.com,Stock,—
+3.11,PCB & Electronics,LED light pipe — injection molded,"Clear polycarbonate; injection-molded production part; press-fit into shell LED aperture",MC-LIGHTPIPE-001,1,2000,ea,¥0.87,$ 0.12,¥1,740,$ 240,Plastics OEM — Shenzhen,7–10 days,Tooling NRE paid at EVT
+3.12,PCB & Electronics,PCB mounting standoffs — M2,"Brass M2 × [height TBD]; ×4 per unit",MC-STANDOFF-001,4,8000,ea,¥0.15,$ 0.02,¥1,160,$ 160,Hardware market — Shenzhen,Stock,—
+,,,,,,,,,,,,,,,
+4.1,Glasses Charging Interface,Pogo pin contacts — gold-plated,"Spring-loaded; Au ≥0.3µm over Ni; spring force 80–150g; stroke ≥0.5mm; ≥1A rated; ≥10000 cycles; ×4 per unit; pitch and qty confirmed post-EVT",MC-POGO-001,4,8000,ea,¥2.75,$ 0.38,¥22,000,$ 3,034,Pogo pin supplier — Shenzhen (CFE Electronics Bao'an / Coda Electronics / Shenzhen pogo pin market),7–10 days,Do not order before pogo layout confirmed with Mira hardware team
+4.2,Glasses Charging Interface,Pogo pin carrier — injection molded,"LCP or PA66; injection-molded; ±0.15mm pin position accuracy; press-fit to lower shell",MC-POGO-CARRIER-001,1,2000,ea,¥3.99,$ 0.55,¥7,980,$ 1,100,Injection mold OEM — Shenzhen,14–21 days,Tooling NRE paid at EVT
+4.3,Glasses Charging Interface,Pogo pin wiring harness,"26AWG silicone; 2–4 conductors; crimped ferrules PCB side; tinned pogo tails; assembled harness",MC-POGO-WIRE-001,1,2000,set,¥1.30,$ 0.18,¥2,600,$ 359,Wire harness supplier — Shenzhen / Dongguan,7–10 days,—
+4.4,Glasses Charging Interface,Alignment magnets — N35 disc,"Neodymium N35; Ø5mm × 2mm; NiCuNi plated; ×2 per unit",MC-MAGNET-001,2,4000,ea,¥0.44,$ 0.06,¥1,760,$ 243,Magnet supplier — Dongguan / Shenzhen (Zhongke / standard magnet market),Stock,—
+,,,,,,,,,,,,,,,
+5.1,Ring Charging Interface,Ring charging dock — magnetic contact assembly,"Magnetic contact pair; output 5V / 500mA (confirmed pre-MP); sizes 7–14; gold-plated; magnetic retention",MC-RING-DOCK-001,1,2000,ea,¥8.70,$ 1.20,¥17,400,$ 2,400,Ring accessories OEM — Shenzhen / co-source with Jstyle or Mira Ring supplier,10–14 days,Co-sourcing with ring supplier preferred for guaranteed electrical compatibility
+5.2,Ring Charging Interface,Ring dock housing — injection molded,"PA66 or ABS; per production tooling; smooth interior; sizes 7–14 ID range",MC-RING-HOUSE-001,1,2000,ea,¥2.54,$ 0.35,¥5,080,$ 700,Injection mold OEM — Shenzhen,14–21 days,Tooling NRE paid at EVT
+5.3,Ring Charging Interface,Ring dock wiring,"26AWG silicone; 2 conductors; dock contacts to PCB pad",MC-RING-WIRE-001,1,2000,set,¥0.58,$ 0.08,¥1,160,$ 160,Wire harness supplier — Shenzhen,5–7 days,—
+,,,,,,,,,,,,,,,
+6.1,Packaging,Retail box — branded,"Rigid folding carton; 100% recycled paperboard; full Mira brand print; all regulatory marks; sized to MiraCase",MC-BOX-001,1,2000,ea,¥3.99,$ 0.55,¥7,980,$ 1,100,Packaging supplier — Shenzhen / Dongguan,14–21 days first run (print setup),Print setup NRE ¥2,175 (~$300) one-time included in first order
+6.2,Packaging,Inner tray / insert — molded pulp,"Molded pulp tray; holds MiraCase securely per ISTA 2A drop",MC-TRAY-001,1,2000,ea,¥2.03,$ 0.28,¥4,060,$ 560,Packaging supplier — Shenzhen / Dongguan,10–14 days,—
+6.3,Packaging,Compliance labels set,"FCC SDoC; CE; UKCA; WEEE; battery Wh; S/N barcode; thermal label stock; 1 set per unit",MC-LABEL-001,1,2000,set,¥0.87,$ 0.12,¥1,740,$ 240,Label printer — Shenzhen,5–7 days,S/N must be unique per unit and match production records
+6.4,Packaging,Lithium battery shipping label,"IATA UN3481 caution label; 100×100mm; outer master carton",MC-LITHLABEL-001,1,2000,ea,¥0.22,$ 0.03,¥440,$ 61,Label supplier — Shenzhen,Stock,One per master carton; cost allocated per unit here for BOM completeness
+6.5,Packaging,Quick start guide,"Single-fold card; full color; English + EU languages for EU batches; safety notes + warranty",MC-QSG-001,1,2000,ea,¥1.01,$ 0.14,¥2,020,$ 279,Print shop — Shenzhen,7–10 days,—
+6.6,Packaging,Microfiber cleaning cloth,"Microfiber; black; 15×15cm",MC-CLOTH-001,1,2000,ea,¥1.30,$ 0.18,¥2,600,$ 359,Textile supplier — Shenzhen,Stock,—
+,,,,,,,,,,,,,,,
+7.1,Assembly,SMT + mechanical assembly labor,"Automated SMT placement of PCB; mechanical assembly of shell / lining / pogo carrier / ring dock / wiring / closure; Shenzhen CM labor rate at 2000-unit volume",MC-LABOR-001,1,2000,unit,¥23.20,$ 3.20,¥46,400,$ 6,400,Contract manufacturer — Shenzhen,—,Includes SMT + mechanical; volume pricing at 500 units/month; spot-check line quality at IPQC
+7.2,Assembly,Functional test labor,"Per-unit OQC test on test fixture: USB-C in / glasses output V / ring output V / LED states / visual; ~8 min/unit",MC-TEST-001,1,2000,unit,¥5.80,$ 0.80,¥11,600,$ 1,600,Contract manufacturer — Shenzhen,—,Test fixture NRE listed in MP NRE below
+7.3,Assembly,IQC incoming inspection labor,"Per-lot incoming inspection: battery + PCB + shell + pogo pins per QC checklist; allocated per unit",MC-IQC-001,1,2000,unit,¥1.81,$ 0.25,¥3,620,$ 500,Contract manufacturer — Shenzhen,—,—
+,,,,,,,,,,,,,,,
+UNIT COST SUMMARY (MP — 2000 units — CNY and USD),,,,,,,,,,,,,,,
+CATEGORY,UNIT COST CNY,UNIT COST USD,,,,,,,,,,,,
+Enclosure & Mechanical,¥91.51,$ 12.62,,,,,,,,,,,,
+Battery System,¥17.84,$ 2.46,,,,,,,,,,,,
+PCB & Electronics,¥17.24,$ 2.38,,,,,,,,,,,,
+Glasses Charging Interface,¥11.53,$ 1.59,,,,,,,,,,,,
+Ring Charging Interface,¥11.82,$ 1.63,,,,,,,,,,,,
+Packaging,¥9.42,$ 1.30,,,,,,,,,,,,
+Assembly + Test + IQC Labor,¥30.81,$ 4.25,,,,,,,,,,,,
+TOTAL UNIT COST (ex-factory — no NRE — no tariff),¥190.17,$ 26.23,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TOTAL EXTENDED COST — 2000 UNITS (materials + labor),,,,,,¥380,340,,$ 52,459,,,,,
+,,,,,,,,,,,,,,,
+NRE CARRIED FROM SAMPLE PHASE (already incurred),,,,,,,,,,,,,,,
+NRE-01 to NRE-11 total (tooling + regulatory),Already paid at EVT/DVT — see bom-sample.csv,¥124,500 / $ 17,172 total NRE,,,,,,,,,,,,
+NRE amortized over 2000 units,¥62.25 / unit,$ 8.59 / unit,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+MP-ONLY NRE (new items not in sample BOM — Chinese pricing),,,,,,,,,,,,,,,
+MP-NRE-01,Test fixture,"Functional test fixture for OQC line; validates all charging outputs + LED states simultaneously; semi-automated; built by Shenzhen fixture shop",,—,1,ea,¥4,350,$ 600,¥4,350,$ 600,Fixture shop — Shenzhen,14–21 days,Amortizes to ¥2.18 / $0.30 per unit over 2000 units
+MP-NRE-02,Packaging print setup,Retail box print plate setup fee,,—,1,lot,¥2,175,$ 300,¥2,175,$ 300,Packaging supplier — Shenzhen,—,One-time
+MP-NRE-03,Assembly jigs,"Shell alignment jig for pogo pin / lining bonding; ring dock jig",,—,1,lot,¥2,900,$ 400,¥2,900,$ 400,Fixture shop — Shenzhen,14–21 days,One-time
+TOTAL MP-ONLY NRE,¥9,425,$ 1,300,,,,,,,,,,,,
+MP NRE amortized over 2000 units,¥4.71,$ 0.65,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+FULLY LOADED UNIT COST SUMMARY (first order — 2000 units),,,,,,,,,,,,,,,
+,,CNY,USD,,,,,,,,,,,
+Ex-factory unit cost (materials + labor),,¥190.17,$ 26.23,,,,,,,,,,,
+Sample-phase NRE amortized,,¥62.25,$ 8.59,,,,,,,,,,,
+MP NRE amortized,,¥4.71,$ 0.65,,,,,,,,,,,
+TOTAL FULLY LOADED — FIRST 2000 UNITS,,¥257.13,$ 35.47,,,,,,,,,,,
+STEADY-STATE (reorders — NRE fully recovered),,¥190.17,$ 26.23,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TARIFF NOTE,,,,,,,,,,,,,,,
+"HTS code (US import): TBD — likely 8504.40 (static converters / power banks) or 4202.12 (cases for spectacles). Section 301 tariffs on Chinese goods are elevated as of April 2026. Estimated tariff impact on ex-factory cost of $26.23/unit: at 25% = +$6.56/unit landed; at 145% = +$38.03/unit landed. Confirm HTS classification with licensed customs broker before MP order. At 145% tariff, consider whether finished goods vs. semi-finished components can be sourced or assembled outside China (e.g. Vietnam, Malaysia) to reduce tariff exposure.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+COST COMPARISON — SAMPLE vs. MASS PRODUCTION (Chinese pricing),,,,,,,,,,,,,,,
+,,Sample (EVT — 10 units),Mass Production (2000 units),,,,,,,,,,
+Unit cost — materials + labor (no NRE),,¥595.26 / $ 82.09,¥190.17 / $ 26.23,,,,,,,,,,
+Unit cost reduction,,—,68% lower than sample,,,,,,,,,,
+Fully loaded (NRE amortized),,¥657.55 / $ 90.68,¥257.13 / $ 35.47,,,,,,,,,,
+Primary cost drivers at sample,,"CNC/SLA prototype shells (¥348/unit); hand assembly labor (¥109/unit); prototype PCB (¥58/unit)",,,,,,,,,,,,
+Primary cost drivers at MP,,"Injection-molded shells (¥36.25/unit combined); SMT + mechanical labor (¥23.20/unit); battery cell (¥14.50/unit)",,,,,,,,,,,,
