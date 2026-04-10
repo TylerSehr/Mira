@@ -120,7 +120,10 @@ These companies offer both freight forwarding from China AND US-based warehousin
 |----------|-------------|-----------------|--------------------|----|
 | **Flexport** | FF + customs + own US warehouses + pick/pack/ship | \$5,000/mo fulfillment spend | Yes (+ Amazon, Walmart, SHEIN) | Gold standard for integrated logistics. Best tech/dashboard. Premium pricing. |
 | **ShipBob + FreightBob** | US 3PL (60+ warehouses) + freight via Flexport/Maersk partners | ~\$275/mo + volume (no strict order min) | Yes | Best US fulfillment network. FreightBob handles inbound freight from China (min 1 CBM). Freight is partnered, not native — two systems stitched together. |
-| **Floship** | FF + US warehouses (CA, TN, IN, NJ) + fulfillment | Custom — request quote | Yes | Purpose-built for Asia-origin DTC brands. Opaque pricing but potentially more flexible on minimums. Worth a quote. |
+| **Lansil Global** | FF + SZ warehouse (QC/sourcing) + US warehouses (NV, PA) | Custom — request quote | Yes | Dual-continent: China hub for QC + US hubs for 2-4 day delivery. Also does sourcing and Amazon FBA prep. Interesting because they handle SZ-side QC AND US fulfillment — could replace both your QC person and a separate 3PL. |
+| **Floship** | FF + US warehouses (CA, TN, IN, NJ) + fulfillment | Custom — request quote | Yes | Purpose-built for Asia-origin DTC brands. HK/SZ headquarters. Opaque pricing but potentially more flexible on minimums. |
+| **Portless** | Direct fulfillment from China — no US warehouse | Custom — request quote | Yes | Ships individual orders by air from China. Inventory sellable within 48 hours of production. Eliminates need for US inventory capital. But: 6-10 day delivery, no US returns, same DDP per-parcel model as Phase 1. Best as a bridge, not a destination. |
 | **DIDADI Logistics** | China-based FF + US fulfillment | Custom — request quote | Yes | Less established, less tech maturity. Could be competitive on price for smaller brands. |
+| **ShipWithMina** | AI-powered fulfillment with direct Shopify integration | Custom — request quote | Yes | Newer entrant. Claims exclusive shipping lines for cost savings. Less track record — vet carefully. |
 
 **When requesting quotes, provide:** 0.2kg product, lithium battery (Class 9 DG), 200-1,000 units/mo, Shenzhen origin, US destination, Shopify integration required.
