@@ -99,3 +99,13 @@ All costs assume current tariff rates (~28% on transaction value). Actual duty T
 | Monthly fixed cost | \$400-800 (QC hire) | \$5,000 (Flexport min) | \$5,000 (Flexport min) |
 
 > **Note:** Per-order costs are dominated by duties (~\$140/unit at current rates). The logistics handling difference between phases is only \$3-5/order. The primary reason to advance through phases is customer experience (faster delivery, returns) and operational scalability — not cost savings.
+
+---
+
+## 5 Key Differentiators to Keep in Mind
+
+- **Delivery speed** — 2-5 days vs 7-15 days. At \$650 retail, slow shipping kills conversion.
+- **Quality control** — Someone inspects before the customer opens the box, or nobody does. One bad unit = one devastating review.
+- **Upfront capital** — \$0 vs ~\$100K+. Determines which options are even available to you.
+- **US returns** — At \$650, "refund and keep" is too expensive and "ship back to China" is a non-starter. You need a US return address.
+- **Operational complexity** — Every hour spent coordinating logistics partners is an hour not spent reducing COGS, which is the existential problem.
