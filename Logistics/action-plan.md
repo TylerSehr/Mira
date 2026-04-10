@@ -109,3 +109,18 @@ All costs assume current tariff rates (~28% on transaction value). Actual duty T
 - **Upfront capital** — \$0 vs ~\$100K+. Determines which options are even available to you.
 - **US returns** — At \$650, "refund and keep" is too expensive and "ship back to China" is a non-starter. You need a US return address.
 - **Operational complexity** — Every hour spent coordinating logistics partners is an hour not spent reducing COGS, which is the existential problem.
+
+---
+
+## Integrated FF + US 3PL Providers (Flexport Alternatives)
+
+These companies offer both freight forwarding from China AND US-based warehousing/fulfillment under one roof. Get quotes from all of them.
+
+| Provider | What they do | Monthly minimum | Shopify integration | Notes |
+|----------|-------------|-----------------|--------------------|----|
+| **Flexport** | FF + customs + own US warehouses + pick/pack/ship | \$5,000/mo fulfillment spend | Yes (+ Amazon, Walmart, SHEIN) | Gold standard for integrated logistics. Best tech/dashboard. Premium pricing. |
+| **ShipBob + FreightBob** | US 3PL (60+ warehouses) + freight via Flexport/Maersk partners | ~\$275/mo + volume (no strict order min) | Yes | Best US fulfillment network. FreightBob handles inbound freight from China (min 1 CBM). Freight is partnered, not native — two systems stitched together. |
+| **Floship** | FF + US warehouses (CA, TN, IN, NJ) + fulfillment | Custom — request quote | Yes | Purpose-built for Asia-origin DTC brands. Opaque pricing but potentially more flexible on minimums. Worth a quote. |
+| **DIDADI Logistics** | China-based FF + US fulfillment | Custom — request quote | Yes | Less established, less tech maturity. Could be competitive on price for smaller brands. |
+
+**When requesting quotes, provide:** 0.2kg product, lithium battery (Class 9 DG), 200-1,000 units/mo, Shenzhen origin, US destination, Shopify integration required.
