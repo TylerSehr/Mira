@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c \"import pip; pip.main\\([''install'', ''python-docx'', ''-q'']\\)\")"
+      "Bash(python3 -c \"import pip; pip.main\\([''install'', ''python-docx'', ''-q'']\\)\")",
+      "WebFetch(domain:www.meta-bounds.com)",
+      "WebFetch(domain:www.cbinsights.com)",
+      "WebFetch(domain:www.st.com)",
+      "WebFetch(domain:kguttag.com)",
+      "WebFetch(domain:www.idtechex.com)"
     ]
   }
 }

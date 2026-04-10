@@ -1,0 +1,101 @@
+Line,Part Number,Category,Component Name,Description / Spec,Qty per Unit,Sample Run (50 units),Total Qty,Unit,Est. Unit Cost USD (sample qty),Est. Line Total USD,Est. Lead Time (Shenzhen),Confidence,Sourcing Notes
+,,,,,,,,,,,,,,
+,,FRAME & MECHANICAL,,,,,,,,,,,,
+MG-F01,MG-F01,Frame & Mechanical,Frame assembly (front + temples),"Injection-molded TR-90 or nylon; matte black; full-rim rectangular; thickened hollow temple arms; universal bridge; 140mm W x 45mm H x 150mm D",1,50,50,set,$15.00,$750.00,3–5 weeks,INFERRED,"Shenzhen / Dongguan eyewear OEMs standard; Wenzhou (温州) is CN eyewear frame hub — many TR-90 smart glasses frame suppliers. Frame mold tooling NRE ~¥40k–¥120k ($5.5k–$16.5k) budget separately. At 50 units cost is high; drops to $4–$8 at MOQ 1000+"
+MG-F02,MG-F02,Frame & Mechanical,Barrel hinges,"Spring-loaded 5-barrel hinge; stainless steel; 1 per side",2,50,100,each,$1.00,$100.00,1–2 weeks,INFERRED,"Wenzhou hinge suppliers standard; also available at HQB (华强北) for prototypes"
+MG-F03,MG-F03,Frame & Mechanical,Hinge screws,"M1.4 stainless steel; 2–3 per hinge",6,50,300,each,$0.02,$6.00,1 week,INFERRED,"Bulk hardware; sourced locally in Shenzhen or Dongguan"
+MG-F04,MG-F04,Frame & Mechanical,Nose pad arms,"Stainless steel adjustable saddle arms; universal bridge",2,50,100,each,$0.40,$40.00,1–2 weeks,CONFIRMED (type),"Standard eyewear hardware; Wenzhou or Shenzhen optical hardware market"
+MG-F05,MG-F05,Frame & Mechanical,Nose pads (installed),"Silicone push-fit; replaceable; installed pair",2,50,100,each,$0.15,$15.00,1 week,CONFIRMED (type),
+MG-F06,MG-F06,Frame & Mechanical,Nose pads (in-box spares),"Same spec as installed; 1 spare pair per unit",2,50,100,each,$0.15,$15.00,1 week,CONFIRMED (type),
+MG-F07,MG-F07,Frame & Mechanical,Temple tips (ear hooks),"Soft silicone overmold over temple end",2,50,100,each,$0.40,$40.00,2–3 weeks,INFERRED,"Co-molded with temple or secondary silicone process; common at Shenzhen OEMs"
+MG-F08,MG-F08,Frame & Mechanical,Frame logo,"MIRA text; laser-etched into temple arm surface",2,50,100,each,$0.20,$20.00,With frame lead time,CONFIRMED (presence),"Laser etching standard at Shenzhen frame OEMs; no add'l supplier needed"
+MG-F09,MG-F09,Frame & Mechanical,Internal metal chassis,"Thin stainless steel skeleton in temple arms for structural rigidity",1,50,50,set,$2.50,$125.00,3–5 weeks,INFERRED,"Metal stamping; Shenzhen or Dongguan precision metal fab"
+MG-F10,MG-F10,Frame & Mechanical,Adhesives and gaskets,"Structural adhesive (3M or local equiv) + silicone IPX2 gaskets for mic and speaker port openings",1,50,50,set,$1.20,$60.00,1 week,INFERRED,"3M adhesives and silicone gaskets widely available in Shenzhen; IPX2 sealing required per IEC 60529"
+,,,,,,,,,,,,,,
+,,DISPLAY SYSTEM,,,,,,,,,,,,
+MG-D01,MG-D01,Display,Waveguide lens — left,"Diffractive or geometric waveguide; green monochrome; 28° FoV; integrated with lens substrate; 98% passthrough; AR + AF coated",1,50,50,each,$220.00,$11000.00,10–16 weeks,INFERRED,"Chinese waveguide suppliers: 灵犀微光 (Lingxi AR), 北京耐德佳 (Ned Optics), 水晶光电 (Crystal Optech), 视涯科技 (SeeYA). Still highest cost component even with CN sourcing. Custom waveguide design NRE may be ¥200k–¥800k ($28k–$110k) — budget separately"
+MG-D02,MG-D02,Display,Waveguide lens — right,Same spec as MG-D01,1,50,50,each,$220.00,$11000.00,10–16 weeks,INFERRED,Must be matched pair with MG-D01; order as pair from same supplier
+MG-D03,MG-D03,Display,Micro-projector module — left,"Micro-OLED or LCoS projector; green monochrome; min 2000 nit; 640x480; 60Hz; compact for edge-of-lens mounting",1,50,50,each,$70.00,$3500.00,6–10 weeks,INFERRED,"Chinese suppliers: 晶典微 JBD (Micro-LED), Himax HX7322 (LCoS — Taiwan, MFG in CN), 视涯科技 SeeYA, BOE display engine. JBD and Himax significantly cheaper than Western equivalents at sample qty"
+MG-D04,MG-D04,Display,Micro-projector module — right,Same spec as MG-D03,1,50,50,each,$70.00,$3500.00,6–10 weeks,INFERRED,Matched pair with MG-D03
+MG-D05,MG-D05,Display,Display driver IC,"640x480 @ 60Hz projector driver; SPI or MIPI DSI interface; may be integrated into SoC",1,50,50,each,$6.00,$300.00,2–4 weeks,INFERRED,"Available via LCSC.com; or bundled with projector module from JBD/Himax"
+MG-D06,MG-D06,Display,Projector flex PCB,"Custom FPC connecting projector module to main PCB; routed through temple arm",2,50,100,each,$5.00,$500.00,3–5 weeks,INFERRED,"Shenzhen FPC shops: Cvilux, Dongfang Circuit, or standard FPC fabs in Shenzhen. Very common capability locally"
+MG-D07,MG-D07,Display,Optical coupling element,"Collimating optic/prism at projector output; couples light into waveguide input port",2,50,100,each,$3.00,$300.00,6–10 weeks,INFERRED,"Typically sourced as part of optical engine from waveguide supplier"
+,,,,,,,,,,,,,,
+,,AUDIO SYSTEM,,,,,,,,,,,,
+MG-A01,MG-A01,Audio,MEMS microphone — left,"Digital MEMS mic; PDM or I2S; always-on low-power mode",1,50,50,each,$1.20,$60.00,1–2 weeks,CONFIRMED (type),"Goertek (歌尔声学) dominant CN supplier; also Gettop Acoustic, BSE. Available on LCSC. Goertek supplies Apple AirPods — high quality, competitive pricing"
+MG-A02,MG-A02,Audio,MEMS microphone — right,Same spec as MG-A01,1,50,50,each,$1.20,$60.00,1–2 weeks,CONFIRMED (type),
+MG-A03,MG-A03,Audio,Mic port acoustic mesh,"Waterproof acoustic membrane; PTFE or equiv; IPX2 rated; acoustic transparency maintained",2,50,100,each,$0.20,$40.00,1–2 weeks,INFERRED,"Donaldson / W.L. Gore PTFE mesh, or Chinese equiv (深圳市泰科电子). Very common in Shenzhen consumer electronics supply chain"
+MG-A04,MG-A04,Audio,Audio DSP / codec IC,"Noise reduction, VAD, beamforming; may be integrated into SoC",1,50,50,each,$2.50,$125.00,2–4 weeks,INFERRED,"Available via LCSC; Cirrus Logic, Realtek RTL8763 series common in CN wearables. Confirm integration with SoC at EVT"
+MG-A05,MG-A05,Audio,Speaker driver — left,"Open-ear directional micro-speaker; 10–14mm; angled toward ear canal; left temple",1,50,50,each,$3.50,$175.00,2–4 weeks,CONFIRMED (type),"AAC Technologies (瑞声科技, Shenzhen) or Goertek — both major global speaker suppliers headquartered in Shenzhen/Qingdao. Excellent quality at low cost"
+MG-A06,MG-A06,Audio,Speaker driver — right,Same spec as MG-A05,1,50,50,each,$3.50,$175.00,2–4 weeks,CONFIRMED (type),
+MG-A07,MG-A07,Audio,Speaker amplifier IC,"Class D amplifier; may be integrated into SoC or codec",1,50,50,each,$1.00,$50.00,1–2 weeks,INFERRED,"Available LCSC; TI TPA2012, or Chinese equiv (思远半导体 / SiGe Semiconductor)"
+MG-A08,MG-A08,Audio,Speaker port acoustic mesh,Same spec as MG-A03,2,50,100,each,$0.20,$40.00,1–2 weeks,INFERRED,
+,,,,,,,,,,,,,,
+,,SENSORS,,,,,,,,,,,,
+MG-S01,MG-S01,Sensors,6-axis IMU,"Accelerometer + gyroscope combined; I2C/SPI; low-power; e.g. Bosch BMI270 or QST QMI8658A",1,50,50,each,$2.00,$100.00,1–2 weeks,CONFIRMED (type),"QST Corporation (矽睿科技, Shanghai) makes competitive Chinese IMU. Bosch/TDK also readily available via LCSC. QST QMI8658A used in many CN wearables"
+MG-S02,MG-S02,Sensors,Ambient light sensor (ALS),"Photodiode ALS; I2C; adaptive display brightness control",1,50,50,each,$0.70,$35.00,1–2 weeks,CONFIRMED (type),"ROHM, Liteon, or CN equiv (Sunlight 晶光电子). Very common, available LCSC"
+MG-S03,MG-S03,Sensors,Wear detection sensor,"IR proximity or capacitive; on-head/off-head detection",1,50,50,each,$1.20,$60.00,1–2 weeks,INFERRED,"Vishay VCNL or CN equiv; or use existing IMU + ALS for wear detection logic — confirm at EVT"
+,,,,,,,,,,,,,,
+,,COMPUTE & CONNECTIVITY,,,,,,,,,,,,
+MG-C01,MG-C01,Compute,Main SoC / MCU,"BLE 5.2 SoC; audio I/O, display driver, sensors, power mgmt, OTA DFU; option A: Nordic nRF5340; option B: Telink TLSR9518A (lower cost, BLE 5.2, CN domestic)",1,50,50,each,$6.00,$300.00,2–4 weeks,INFERRED,"Nordic nRF5340 ~$8–10 via CN distributors (UTSource, LCSC). Telink TLSR9518A ~$2–4, made in China, strong BLE 5.2 support, widely used in CN TWS earbuds and wearables. Both require Bluetooth SIG QDID. Telink significantly cheaper at volume"
+MG-C02,MG-C02,Compute,BLE antenna,"Chip antenna; 2.4GHz; 50Ω; e.g. Yageo / Johanson / TDK",1,50,50,each,$0.25,$12.50,1–2 weeks,INFERRED,"Standard chip antenna; extremely common in Shenzhen supply chain; available LCSC same-day"
+MG-C03,MG-C03,Compute,RF matching network passives,"LC passives for antenna tuning",1,50,50,set,$0.25,$12.50,1 week,INFERRED,"Bulk passives from LCSC or Yageo CN stock"
+MG-C04,MG-C04,Compute,Crystal oscillator,"32MHz + 32.768kHz RTC",2,50,100,each,$0.25,$50.00,1 week,INFERRED,"Epson / TXC / CN equiv (泰晶科技 Tai-Saw or 惠伦晶体); very common, cheap, fast delivery in Shenzhen"
+MG-C05,MG-C05,Compute,External NOR flash,"4–8MB SPI NOR; e.g. Winbond W25Q64JV or GigaDevice GD25Q64C",1,50,50,each,$0.80,$40.00,1–2 weeks,INFERRED,"GigaDevice (兆易创新) is a major Chinese flash supplier — quality equivalent, lower cost than Winbond. Available LCSC"
+MG-C06,MG-C06,Compute,Main PCB (fabrication + assembly),"4–6 layer rigid PCB; RoHS compliant; includes PCB fab + SMT assembly at Shenzhen PCBA house",1,50,50,each,$35.00,$1750.00,2–3 weeks,INFERRED,"Shenzhen PCBA fabs: JLCPCB, PCBWay, Kinergy, Huaqiu. At 50 units this is highly competitive vs Western pricing. Drops to $8–$15/unit at volume 1000+"
+MG-C07,MG-C07,Compute,Flex PCB interconnects,"Custom FPC ribbons; temples to display, mic, speaker",1,50,50,set,$10.00,$500.00,2–3 weeks,INFERRED,"Shenzhen FPC specialists: Flexium, Cvilux CN, or local FPC shops. Same building as PCBA fabs in many cases"
+MG-C08,MG-C08,Compute,EMI shielding can,"Stamped metal RF shield; required for FCC Part 15B / EN 55032",1,50,50,each,$0.70,$35.00,1–2 weeks,INFERRED,"Shenzhen sheet metal shops; also standard catalog shields from Laird / TE available via LCSC"
+MG-C09,MG-C09,Compute,Passive components (R/C/L/ferrite),"Full passives kit: resistors, capacitors, inductors, ferrite beads",1,50,50,lot,$2.00,$100.00,1 week,INFERRED,"YAGEO, Walsin, or CN equiv (国巨 / 华新科). Buy from LCSC — next-day delivery in Shenzhen"
+,,,,,,,,,,,,,,
+,,POWER SYSTEM,,,,,,,,,,,,
+MG-P01,MG-P01,Power,Li-Po battery cell — left temple,"Custom-shape thin Li-Po for left temple arm; IEC 62133-2 + UN 38.3 certified; capacity TBD from DVT power profiling",1,50,50,each,$8.00,$400.00,4–6 weeks,INFERRED,"Shenzhen is the global Li-Po capital. Suppliers: ATL (新能源科技), Grepow (格瑞普), EVE Energy (亿纬锂能), Great Power (鹏辉能源). All offer IEC 62133-2 + UN 38.3 certs. Custom cell shapes routine and fast. Much cheaper than Western sourcing"
+MG-P02,MG-P02,Power,Li-Po battery cell — right temple,Same spec as MG-P01; right temple,1,50,50,each,$8.00,$400.00,4–6 weeks,INFERRED,
+MG-P03,MG-P03,Power,Battery management IC (BMS),"Overcharge, over-discharge, short-circuit, thermal protection; e.g. TI BQ29700 or CN equiv DDR8312",1,50,50,each,$1.00,$50.00,1–2 weeks,INFERRED,"CN BMS ICs: DALU (达鲁), SH367309 (深圳芯海). Available LCSC at very low cost"
+MG-P04,MG-P04,Power,Power management IC (PMIC),"Multi-rail regulator; sleep/wake gating; e.g. TI or CN equiv",1,50,50,each,$2.00,$100.00,1–2 weeks,INFERRED,"CN PMIC suppliers: SY (圣邦微电子 SGMICRO), CW2015 family, or TI via LCSC"
+MG-P05,MG-P05,Power,Magnetic charging contacts,"Pogo pin or magnetic contact set on temple arm; mates with included magnetic cable",1,50,50,set,$1.20,$60.00,2–3 weeks,INFERRED,"Shenzhen connector suppliers: Molex CN, or local pogo pin shops in HQB area. Magnetic pogo pin assemblies extremely common in Shenzhen"
+MG-P06,MG-P06,Power,Charging IC,"CC/CV Li-Po charger; 40-min target charge time",1,50,50,each,$0.80,$40.00,1–2 weeks,INFERRED,"CN charging ICs: TP4056 (common, cheap), or TP4057 / IP2326 for higher current. Available LCSC same-day"
+MG-P07,MG-P07,Power,NTC thermistor,Battery thermal monitoring,1,50,50,each,$0.15,$7.50,1 week,INFERRED,"Standard NTC; LCSC, same-day Shenzhen"
+,,,,,,,,,,,,,,
+,,OPTICAL LENSES,,,,,,,,,,,,
+MG-L01,MG-L01,Lenses,Non-prescription lens pair,"Clear lens substrate with integrated waveguide; AR + AF coated; 98% passthrough",2,50,100,each,$12.00,$1200.00,6–10 weeks,INFERRED,"Danyang (丹阳, Jiangsu) is China's optical lens capital — largest concentration of lens grinders globally. Waveguide integration into lens substrate requires coordination with waveguide supplier. AR/AF coating standard at Danyang fabs"
+MG-L02,MG-L02,Lenses,Prescription lens pair (1.74 hi-index),"Custom-ground 1.74 high-index; waveguide integrated; AR + AF coated; ANSI Z80.3 tolerances",2,TBD,TBD,each,$45.00,TBD,5–8 weeks per batch,CONFIRMED (type),"Danyang lens grinding: very competitive pricing vs Western labs. $45 est. per lens at sample; drops further at volume. Non-refundable once ordered. Requires valid patient Rx"
+,,,,,,,,,,,,,,
+,,ASSEMBLY LABOR,,,,,,,,,,,,
+MG-LBR01,MG-LBR01,Labor,Assembly and test labor,"Full unit assembly: frame build, PCB integration, waveguide/lens install, display alignment, firmware flash, functional test, QC inspection",1,50,50,unit,$25.00,$1250.00,N/A,INFERRED,"Shenzhen assembly labor rate ~¥20–35/hr ($2.75–$4.80/hr). Smart glasses assembly est. 5–8 hrs/unit at sample qty including rework and test. Drops significantly at volume with jigs and fixtures. Find Shenzhen OEM/ODM with smart glasses experience: e.g. Goertek, BYD Electronics, O-Film, or smaller smart glasses ODMs in Shenzhen"
+,,,,,,,,,,,,,,
+,,REGULATORY LABELS,,,,,,,,,,,,
+MG-R01,MG-R01,Regulatory,FCC ID label,US market; assigned after FCC cert,1,50,50,each,$0.05,$2.50,With certification,REQUIRED,
+MG-R02,MG-R02,Regulatory,IC / ISED label,Canada market,1,50,50,each,$0.05,$2.50,With certification,REQUIRED,
+MG-R03,MG-R03,Regulatory,CE mark label,EU market,1,50,50,each,$0.05,$2.50,With certification,REQUIRED,
+MG-R04,MG-R04,Regulatory,UKCA mark label,UK market,1,50,50,each,$0.05,$2.50,With certification,REQUIRED,
+MG-R05,MG-R05,Regulatory,WEEE symbol label,EU units,1,50,50,each,$0.03,$1.50,Standard,REQUIRED,
+MG-R06,MG-R06,Regulatory,Serial number / lot code label,Per-unit traceability; required for GPSR,1,50,50,each,$0.08,$4.00,Standard,REQUIRED,"Thermal transfer printed at factory"
+MG-R07,MG-R07,Regulatory,Battery disposal symbol label,EU Battery Regulation 2023/1542,1,50,50,each,$0.03,$1.50,Standard,REQUIRED,
+,,,,,,,,,,,,,,
+,,IN-BOX ACCESSORIES,,,,,,,,,,,,
+MG-ACC01,MG-ACC01,Accessories,Magnetic charging cable,"Custom magnetic connector end + USB-C; mates with MG-P05 temple contacts",1,50,50,each,$3.00,$150.00,3–5 weeks,CONFIRMED (presence),"Custom cable with magnetic tip; Shenzhen cable OEMs make these routinely. Short run premium at 50 units"
+MG-ACC02,MG-ACC02,Accessories,USB-C power adapter,"USB-C wall adapter; regional plug variants",1,50,50,each,$2.00,$100.00,1–2 weeks,CONFIRMED (presence),"Ubiquitous in Shenzhen; hundreds of suppliers. Source regionally per market"
+MG-ACC03,MG-ACC03,Accessories,Glasses case,"Rigid branded protective case; not a charging case",1,50,50,each,$3.50,$175.00,3–5 weeks,CONFIRMED (presence),"Eyewear case suppliers in Shenzhen / Dongguan; custom printing available"
+MG-ACC04,MG-ACC04,Accessories,Microfiber cleaning cloth,Lens-safe; branded or plain,1,50,50,each,$0.40,$20.00,1–2 weeks,CONFIRMED (presence),
+MG-ACC05,MG-ACC05,Accessories,Quick start guide,"Printed; recording consent guidance, safety warnings, warranty; language-specific",1,50,50,each,$0.50,$25.00,1–2 weeks,CONFIRMED (presence),"Shenzhen print shops; fast turnaround"
+MG-ACC06,MG-ACC06,Accessories,Regulatory insert card,"FCC/IC/CE statements, SAR info, safety warnings",1,50,50,each,$0.25,$12.50,With cert approvals,REQUIRED,
+,,,,,,,,,,,,,,
+,,PACKAGING,,,,,,,,,,,,
+MG-PKG01,MG-PKG01,Packaging,Outer box,"100% recyclable cardboard; branded; SKU label; WEEE + disposal symbols",1,50,50,each,$2.00,$100.00,2–3 weeks,CONFIRMED (type),"Custom cardboard box: Shenzhen packaging suppliers, 3–5 day sample, 2-week production. Very cheap at volume"
+MG-PKG02,MG-PKG02,Packaging,Inner tray / insert,"Molded pulp or EVA foam; custom profile for glasses + accessories",1,50,50,each,$1.50,$75.00,2–3 weeks,CONFIRMED (type),"Molded pulp or die-cut EVA standard in Shenzhen packaging ecosystem"
+,,,,,,,,,,,,,,
+,,PURCHASED ASSEMBLY,,,,,,,,,,,,
+MG-RNG01,MG-RNG01,Purchased Assembly,Mira Ring + ring charger,"BLE touch ring + magnetic ring charger; included in every glasses box; see Ring BOM separately",1,50,50,set,$42.50,$2125.00,4–6 weeks,CONFIRMED (price),"Currently sourced from Jstyle at $42.50/unit. Target $9–$16 from alternative Shenzhen suppliers. At 50-unit sample, use Jstyle pricing. Renegotiate at volume"
+,,,,,,,,,,,,,,
+,,SAMPLE BOM SUMMARY,,,,,,,,,,,,
+,,,"TOTAL EST. UNIT COST — non-Rx (incl. labor + ring at Jstyle price, excl. Rx lenses and NRE)",,,,,,,$791.88,,,,,
+,,,"TOTAL EST. SAMPLE RUN COST — 50 units",,,,,,,$39,594.00,,,,,
+,,,"WAVEGUIDES + PROJECTORS SUBTOTAL (2x waveguide + 2x projector per unit)",,,,,$580.00,,$29,000.00,,,,"~73% of hardware unit cost; dominant cost driver"
+,,,"VS. WESTERN SOURCING ESTIMATE (prior BOM)",,,,,,,$1,158.25,,,,"Shenzhen manufacturing saves est. ~32% at sample qty; savings increase significantly at production volumes"
+,,,,,,,,,,,,,,
+,,ADDITIONAL SAMPLE NRE — budget separately (NOT in unit BOM),,,,,,,,,,,,
+,,,Frame injection mold tooling,,,,,,,¥40k–¥120k ($5.5k–$16.5k),,One-time,INFERRED,"Dongguan or Shenzhen mold shops; much cheaper than Western tooling"
+,,,Waveguide custom design NRE,,,,,,,¥200k–¥800k ($28k–$110k),,One-time,INFERRED,"Highly variable; get quotes from Lingxi AR / Ned Optics / Crystal Optech early"
+,,,PCB design and layout,,,,,,,¥30k–¥80k ($4k–$11k),,One-time,INFERRED,"Shenzhen PCB design houses are very cost competitive"
+,,,Optical alignment jigs + test fixtures,,,,,,,¥20k–¥60k ($2.8k–$8.3k),,One-time,INFERRED,"Required for waveguide alignment at IPQC"
+,,,Certifications (FCC / CE / BT SIG / IEC 62471),,,,,,,~$30k–$60k,,One-time,INFERRED,"CN test labs: SGS Shenzhen, TÜV Rheinland CN, BV Shenzhen, or NTS. Cheaper than US/EU labs with same accreditation"

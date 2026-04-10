@@ -1,0 +1,77 @@
+# Smart Ring Requirements Document
+
+### **Overview:**
+
+This document outlines the requirements for the smart ring to smart glasses system, including:
+
+- operational behavior of the ring
+- Communication between ring and mobile application
+- Control interface between ring and smart glasses via the app
+
+The SDK must enable seamless, low-latency interaction across all components while maintaining power efficiency and reliability.
+
+The smart glasses have a green display as seen below. Buttons like Recap, Follow Up, and Analyze can be swiped through and selected to prompt the AI assistant through the glasses. The ring makes it quick and discreet to prompt the AI and control the glasses. 
+
+![Screenshot 2026-04-07 at 11.38.31 AM.png](attachment:e7b6e19c-3ac4-44f1-938a-6d2f42cd93a8:Screenshot_2026-04-07_at_11.38.31_AM.png)
+
+### **System Architecture:**
+Components:
+
+- Smart Ring (BLE peripheral device)
+- Mobile Application (iOS)
+- Smart Glasses (connected via app by Bluetooth)
+
+Communication flow:
+
+- Ring → App (gesture commands directly relayed through BLE to App)
+- App → Glasses (command relay and processing)
+- Optional: Ring → Glasses (future direct communication, if supported)
+
+Ring Operational Requirements:
+
+- Single tap gesture
+- Swipe up gesture, swipe down gesture
+- Optional: Long press
+
+Ring Availability & Reconnection
+
+- Gestures must always work.
+- If the ring sleeps, it must stay BLE discoverable and reconnectable/able to be awakened.
+- Upon reconnection, touch/gesture input resumes automatically.
+
+### **Custom GATT Profile (Gesture Events):**
+
+The ring exposes a custom BLE GATT Notification service for transmitting gesture inputs to the mobile app. When the user does a gesture, the ring sends a single byte message through a bluetooth characteristic (example below):
+
+Example BLE Characteristic and Notification:
+
+**Characteristic:** Gesture Event
+
+- **UUID:** `12345678-1234-5678-1234-56789abcdef0`
+- **Properties:** Notify
+
+**Gesture Values:**
+
+| Gesture | Value |
+| --- | --- |
+| Tap | 0x01 |
+| Swipe Up | 0x02 |
+| Swipe Down | 0x03 |
+
+**Example Notification:**
+
+- User performs **Swipe Up**
+- Ring sends BLE notification: `0x02`
+- App receives `0x02` → triggers mapped action (e.g., scroll up on glasses)
+
+### Qty and Lead Time:
+
+- 3000 units.
+- size 7-14 (14 optional)
+- charging base
+
+Roughly 500 units a month, up to 2000 a month. 
+
+Currently paying $42.5 per unit, sourced from jstyle
+
+finding $9 - $16 per unit from other suppliers

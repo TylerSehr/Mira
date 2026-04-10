@@ -1,0 +1,82 @@
+Line,Part Number,Category,Component Name,Spec,Qty,Unit,Unit Price (CNY),Unit Price (USD),Line Total (USD),Shenzhen Source,Confidence,Notes
+,,,,,,,,,,,,
+,,FRAME & MECHANICAL,,,,,,,,,,
+MG-F01,MG-F01,Frame & Mechanical,Frame assembly (front + temples),"TR-90 or nylon; matte black; thickened hollow temples; 140x45x150mm",1,set,—,—,RFQ,Dongguan/Wenzhou eyewear ODM,NEEDS RFQ,"No tooling exists yet. Single unit options: (A) SLA/FDM 3D print ¥100–200 ($14–28) — not final material, prototype only; (B) CNC nylon ¥500–1000 ($70–140); (C) adapt existing similar ODM frame ¥200–400 ($28–55). Get quotes from Dongguan ODMs"
+MG-F02,MG-F02,Frame & Mechanical,Barrel hinges,"Spring-loaded 5-barrel; stainless steel",2,each,¥6,¥0.85,$1.70,HQB optical hardware market or 1688.com,HIGH,"Standard eyewear hinge; same-day at HQB Shennan Ave optical hardware shops"
+MG-F03,MG-F03,Frame & Mechanical,Hinge screws,M1.4 stainless steel,6,each,¥0.10,¥0.01,$0.08,HQB or local hardware,HIGH,
+MG-F04,MG-F04,Frame & Mechanical,Nose pad arms,Stainless steel adjustable saddle,2,each,¥3,¥0.42,$0.84,HQB optical hardware,HIGH,
+MG-F05,MG-F05,Frame & Mechanical,Nose pads installed,Silicone push-fit replaceable,2,each,¥1,¥0.14,$0.28,HQB optical hardware,HIGH,
+MG-F06,MG-F06,Frame & Mechanical,Nose pads (in-box spares),Same spec as installed,2,each,¥1,¥0.14,$0.28,HQB optical hardware,HIGH,
+MG-F07,MG-F07,Frame & Mechanical,Temple tips,Soft silicone overmold,2,each,¥3,¥0.42,$0.84,Shenzhen silicone parts supplier,MEDIUM,Small silicone parts widely available; or bundled with frame ODM
+MG-F08,MG-F08,Frame & Mechanical,Internal chassis,Stainless steel skeleton for temple arms,1,set,—,—,RFQ,Shenzhen precision sheet metal shop,NEEDS RFQ,"Single unit custom metal part. Est. ¥150–300 ($21–42) at local Shenzhen sheet metal shop (e.g. Foxron or local CNC shop)"
+MG-F09,MG-F09,Frame & Mechanical,Structural adhesive + gaskets,"3M DP100 or equiv; silicone IPX2 gaskets",1,set,¥15,¥2.10,$2.10,LCSC / local materials supplier,HIGH,"3M adhesive and silicone gaskets available same-day Shenzhen"
+,,,,,,,,,,,,
+,,DISPLAY SYSTEM,,,,,,,,,,
+MG-D01,MG-D01,Display,Waveguide lens — left,"Diffractive waveguide; green; 28° FoV; AR+AF coated; 98% passthrough",1,each,—,—,RFQ,"灵犀微光 Lingxi AR, 北京耐德佳 Ned Optics, 水晶光电 Crystal Optech",NEEDS RFQ,"Most critical RFQ. Engineering sample pricing unknown — could be ¥500–3000+ ($70–420) per lens depending on supplier and whether standard or custom. Contact Lingxi AR (Shenzhen) first as closest geographically"
+MG-D02,MG-D02,Display,Waveguide lens — right,Same spec as MG-D01,1,each,—,—,RFQ,Same as MG-D01,NEEDS RFQ,Order as matched pair with left
+MG-D03,MG-D03,Display,Micro-projector module — left,"LCoS or Micro-LED; green; 2000 nit min; 640x480; 60Hz",1,each,—,—,RFQ,"Himax CN office (深圳), JBD 晶典微 (Shanghai/SZ)",NEEDS RFQ,"Himax HX7322 LCoS chip ~¥100–150 ($14–21) on LCSC/UTSource, but full projector module with optics needs RFQ. JBD Micro-LED engineering sample may have NRE. Get Himax eval module as starting point"
+MG-D04,MG-D04,Display,Micro-projector module — right,Same spec as MG-D03,1,each,—,—,RFQ,Same as MG-D03,NEEDS RFQ,
+MG-D05,MG-D05,Display,Display driver IC,"640x480 @ 60Hz; MIPI DSI or SPI; may be bundled with projector module",1,each,¥65,¥9.00,$9.00,LCSC,MEDIUM,"If not bundled with projector module. LCSC search: display driver IC for OLED/LCOS"
+MG-D06,MG-D06,Display,Projector flex PCB,Custom FPC per projector; routed through temple,2,each,¥40,¥5.50,$11.00,"Shenzhen FPC fab (e.g. Cvilux CN, or any local FPC shop)",MEDIUM,"Single-unit FPC at Shenzhen local shops: ¥30–60 each. Many FPC shops in Longhua / Baoan districts"
+MG-D07,MG-D07,Display,Optical coupling element,Collimating optic at projector output,2,each,—,—,RFQ,Bundle with waveguide supplier,NEEDS RFQ,"Typically supplied as part of optical engine by waveguide vendor"
+,,,,,,,,,,,,
+,,AUDIO SYSTEM,,,,,,,,,,
+MG-A01,MG-A01,Audio,MEMS microphone — left,"Digital MEMS; PDM output; low-power; e.g. Goertek GMSM6429 or Knowles SPH0641",1,each,¥10,¥1.40,$1.40,LCSC / Goertek Shenzhen office,HIGH,"Goertek has Shenzhen sales office. LCSC stocks multiple MEMS mics; same-day pickup possible"
+MG-A02,MG-A02,Audio,MEMS microphone — right,Same spec,1,each,¥10,¥1.40,$1.40,LCSC,HIGH,
+MG-A03,MG-A03,Audio,Mic port acoustic mesh,Waterproof PTFE acoustic membrane; IPX2,2,each,¥1.50,¥0.21,$0.42,"Shenzhen acoustic mesh suppliers (e.g. 深圳市泰科, or HQB accessories)",HIGH,"Very common in CN consumer electronics; bags of 100 available cheaply at HQB"
+MG-A04,MG-A04,Audio,Audio DSP / codec IC,"Noise reduction, VAD; e.g. Realtek ALC5616 or similar",1,each,¥20,¥2.80,$2.80,LCSC / UTSource,MEDIUM,"Realtek codec ICs widely used in CN wearables; available LCSC"
+MG-A05,MG-A05,Audio,Speaker driver — left,"Open-ear directional micro-speaker; 10–14mm",1,each,¥18,¥2.50,$2.50,"AAC Technologies (瑞声科技) Shenzhen or LCSC",HIGH,"AAC HQ in Shenzhen. Can contact directly for engineering samples. LCSC also stocks small speakers"
+MG-A06,MG-A06,Audio,Speaker driver — right,Same spec,1,each,¥18,¥2.50,$2.50,AAC / LCSC,HIGH,
+MG-A07,MG-A07,Audio,Speaker amplifier IC,"Class D amp; e.g. TI TPA2012D2 or CN equiv NS4258",1,each,¥5,¥0.70,$0.70,LCSC,HIGH,"NS4258 (思远半导体) is direct CN equiv to TPA2012; ¥3–5 on LCSC"
+MG-A08,MG-A08,Audio,Speaker port acoustic mesh,Same spec as MG-A03,2,each,¥1.50,¥0.21,$0.42,HQB / LCSC,HIGH,
+,,,,,,,,,,,,
+,,SENSORS,,,,,,,,,,
+MG-S01,MG-S01,Sensors,6-axis IMU,"Accel + gyro; I2C/SPI; low-power; QST QMI8658A or Bosch BMI270",1,each,¥18,¥2.50,$2.50,LCSC,HIGH,"QST QMI8658A (矽睿科技, CN domestic) ¥15–20 on LCSC. BMI270 also available. QST used in many CN wearables — good local support"
+MG-S02,MG-S02,Sensors,Ambient light sensor,"ALS; I2C; e.g. ROHM BH1750 or CN equiv LTR-303ALS",1,each,¥4,¥0.55,$0.55,LCSC,HIGH,"BH1750 ¥3–5 on LCSC; same-day"
+MG-S03,MG-S03,Sensors,Wear detection sensor,"IR proximity; on-head/off-head; e.g. Vishay VCNL4040 or CN equiv",1,each,¥12,¥1.70,$1.70,LCSC,HIGH,"VCNL4040 or similar ¥8–15 on LCSC"
+,,,,,,,,,,,,
+,,COMPUTE & CONNECTIVITY,,,,,,,,,,
+MG-C01,MG-C01,Compute,Main SoC / MCU,"BLE 5.2; option A: Nordic nRF5340-QKAA (~¥65); option B: Telink TLSR9518A (~¥28)",1,each,¥28,¥3.90,$3.90,"LCSC / UTSource / Telink direct (深圳泰凌微电子)",HIGH,"Telink HQ in Shanghai with Shenzhen office. TLSR9518A is BLE 5.2, used in millions of CN TWS earbuds, strong local support and documentation. Significantly cheaper than Nordic at single unit. Nordic available via UTSource or LCSC"
+MG-C02,MG-C02,Compute,BLE chip antenna,2.4GHz chip antenna; 50Ω; e.g. Yageo ANT1608F2450A00,1,each,¥2,¥0.28,$0.28,LCSC,HIGH,"¥1–3 on LCSC; in stock"
+MG-C03,MG-C03,Compute,RF matching network passives,LC passives for antenna tuning (3–5 components),1,set,¥2,¥0.28,$0.28,LCSC,HIGH,
+MG-C04,MG-C04,Compute,Crystal oscillator — 32MHz,SoC main clock reference,1,each,¥2,¥0.28,$0.28,LCSC,HIGH,"Tai-Saw / TXC / 泰晶科技; ¥1.50–3 on LCSC"
+MG-C05,MG-C05,Compute,Crystal oscillator — 32.768kHz,RTC clock,1,each,¥1.50,¥0.21,$0.21,LCSC,HIGH,
+MG-C06,MG-C06,Compute,External NOR flash,"8MB SPI NOR; GigaDevice GD25Q64CSIG",1,each,¥8,¥1.10,$1.10,LCSC,HIGH,"GigaDevice (兆易创新) CN domestic; ¥6–10 on LCSC; same-day"
+MG-C07,MG-C07,Compute,Main PCB — fabrication + assembly,"4-layer rigid PCB + SMT assembly; JLCPCB or PCBWay",1,each,¥350,¥48.00,$48.00,"JLCPCB (嘉立创) Shenzhen or PCBWay",HIGH,"JLCPCB 4-layer PCB fab: ¥60–80 for 5pcs minimum, ~¥15/board. PCBA (assembly) minimum charges ~¥200–280 for 1 unit. Total realistic for single complex board: ¥300–400 ($42–55). Fastest turnaround: 24–48hr PCB, 3–5 days PCBA"
+MG-C08,MG-C08,Compute,Flex PCB interconnects,"Custom FPC ribbons; temples to display, mic, speaker",1,set,¥100,¥14.00,$14.00,Shenzhen FPC fab,HIGH,"Many FPC shops in Shenzhen Longhua district; single-unit FPC prototypes ¥80–150/set"
+MG-C09,MG-C09,Compute,EMI shielding can,Stamped metal RF shield; fits over SoC area,1,each,¥6,¥0.84,$0.84,LCSC / HQB,HIGH,"Standard catalog sizes from Laird or local CN equiv; LCSC stocks multiple sizes"
+MG-C10,MG-C10,Compute,Passive components kit,"Resistors, caps, inductors, ferrite beads — full BOM lot",1,lot,¥20,¥2.80,$2.80,LCSC,HIGH,"LCSC same-day delivery in Shenzhen. Order full passives list from BOM"
+,,,,,,,,,,,,
+,,POWER SYSTEM,,,,,,,,,,
+MG-P01,MG-P01,Power,Li-Po battery cell — left temple,"Custom thin-profile Li-Po; capacity TBD; IEC 62133-2 + UN 38.3 certified",1,each,¥55,¥7.50,$7.50,"Grepow (格瑞普, Shenzhen) or ATL (东莞新能源)",HIGH,"Grepow specializes in custom-shape thin Li-Po; engineering sample for custom shape: ¥50–80. ATL and Grepow both in Shenzhen/Dongguan region. Fastest for single prototype. Standard pouch cells cheaper at HQB if shape not yet finalized"
+MG-P02,MG-P02,Power,Li-Po battery cell — right temple,Same spec as MG-P01,1,each,¥55,¥7.50,$7.50,Grepow / ATL,HIGH,
+MG-P03,MG-P03,Power,Battery management IC (BMS),"Overcharge/overdischarge/short protection; e.g. DW01A + FS8205A dual chip",1,set,¥3,¥0.42,$0.42,LCSC,HIGH,"DW01A + FS8205A combo is standard CN BMS solution; ¥1–3 combined on LCSC; same-day"
+MG-P04,MG-P04,Power,Power management IC (PMIC),"Multi-rail LDO/DC-DC; e.g. SGMicro SGM2019 or TI TPS63001",1,each,¥15,¥2.10,$2.10,LCSC,HIGH,"SGMicro (圣邦微电子) is major CN PMIC supplier; well-stocked on LCSC"
+MG-P05,MG-P05,Power,Magnetic charging contacts,Pogo pin set for temple arm charging interface,1,set,¥10,¥1.40,$1.40,"HQB pogo pin shops or Shenzhen connector supplier (e.g. Cvilux, Liansheng)",HIGH,"Magnetic pogo pin connectors extremely common in SZ; many vendors in HQB and on 1688"
+MG-P06,MG-P06,Power,Charging IC,"CC/CV Li-Po charger; TP4056 (single cell) or IP2326 (higher current)",1,each,¥3,¥0.42,$0.42,LCSC,HIGH,"TP4056 is ubiquitous CN charging IC; ¥0.50–3 on LCSC. IP2326 for faster charge"
+MG-P07,MG-P07,Power,NTC thermistor,Battery temp sensing; 10kΩ NTC,1,each,¥0.50,¥0.07,$0.07,LCSC,HIGH,"Cents on LCSC; same-day"
+,,,,,,,,,,,,
+,,OPTICAL LENSES,,,,,,,,,,
+MG-L01,MG-L01,Lenses,Non-Rx lens pair (clear + waveguide),"Clear lens substrate with integrated waveguide; AR+AF coated",2,each,—,—,RFQ,"Danyang (丹阳) lens fab + waveguide supplier integration",NEEDS RFQ,"Lens substrate grinding at Danyang is cheap (¥30–60/pair), but waveguide integration into lens is the specialized step — must be coordinated with waveguide supplier. Single unit cost unknown without RFQ"
+,,,,,,,,,,,,
+,,ASSEMBLY LABOR,,,,,,,,,,
+MG-LBR01,MG-LBR01,Labor,Assembly and test labor,"Frame build, PCB integration, lens/waveguide install, display alignment, firmware flash, QC",1,unit,¥200,¥28.00,$28.00,Shenzhen OEM assembly,MEDIUM,"Single-unit prototype assembly at Shenzhen electronics OEM or small assembly house. ¥150–250 realistic for skilled prototype work. Display optical alignment is the hardest step — budget more time here"
+,,,,,,,,,,,,
+,,REGULATORY LABELS,,,,,,,,,,
+MG-R01,MG-R01,Regulatory,Serial number label,Unique per-unit ID; thermal transfer printed,1,each,¥0.50,¥0.07,$0.07,Factory label printer,HIGH,
+MG-R02,MG-R02,Regulatory,Compliance labels (FCC/CE/WEEE set),"Printed label set; for sample unit documentation purposes only",1,set,¥1,¥0.14,$0.14,Local print shop,LOW,"For single engineering sample only — formal certs not yet in place. Labels for prototype tracking"
+,,,,,,,,,,,,
+,,IN-BOX ACCESSORIES,,,,,,,,,,
+MG-ACC01,MG-ACC01,Accessories,Magnetic charging cable,Custom magnetic tip + USB-C; mates with temple contacts,1,each,¥28,¥3.90,$3.90,"HQB cable market or Shenzhen cable OEM",MEDIUM,"Custom magnetic connector end; HQB has many cable vendors who can prototype. Single unit premium"
+MG-ACC02,MG-ACC02,Accessories,USB-C power adapter,USB-C wall adapter; 5V/1A minimum,1,each,¥12,¥1.70,$1.70,HQB electronics market,HIGH,"Ubiquitous; dozens of vendors at HQB; buy off shelf"
+MG-ACC03,MG-ACC03,Accessories,Glasses case,Rigid protective case; off-shelf similar style for sample,1,each,¥20,¥2.80,$2.80,HQB accessories / Taobao,HIGH,"For single sample use off-shelf similar case from HQB or Taobao. Custom branded case needed at production"
+MG-ACC04,MG-ACC04,Accessories,Microfiber cleaning cloth,Lens-safe cloth,1,each,¥3,¥0.42,$0.42,HQB / Taobao,HIGH,
+MG-ACC05,MG-ACC05,Accessories,Printed documentation,Quick start guide + regulatory insert; printed single copies,1,set,¥5,¥0.70,$0.70,Local print shop Shenzhen,HIGH,
+,,,,,,,,,,,,
+,,PACKAGING,,,,,,,,,,
+MG-PKG01,MG-PKG01,Packaging,Outer box + inner insert,Plain or simple branded cardboard box for single sample,1,set,¥15,¥2.10,$2.10,Local Shenzhen packaging shop,HIGH,"Custom printed box not needed for single sample; plain box ¥10–20 from packaging shops near HQB"
+,,,,,,,,,,,,
+,,SINGLE UNIT COST SUMMARY,,,,,,,,,,
+,,,CONFIRMED COMPONENT SUBTOTAL (excl. all RFQ items),,,,,,,$163.00,,,,"Includes: hinges, nosepads, audio, sensors, compute, PCB/PCBA, power, labor, accessories, packaging"
+,,,RFQ ITEMS (unknown until supplier quotes),,,,,,, TBD ,,,"Frame, waveguides x2, projector modules x2, optical coupling, non-Rx lens pair","These 7 line items are the unknowns. Waveguides + projectors will dominate. Expect ¥2000–8000+ ($280–1100) combined based on market knowledge — but get real quotes"
+,,,ESTIMATED TOTAL RANGE,,,,,,,$443–$1263+,,,,Lower bound assumes cheapest available CN engineering samples; upper bound assumes premium single-unit pricing from specialist optical suppliers
