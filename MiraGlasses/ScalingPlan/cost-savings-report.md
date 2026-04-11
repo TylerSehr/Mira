@@ -44,13 +44,13 @@ The $649 selling price includes both the Mira Glasses and the Mira Ring. All cos
 
 Tariff figures are calculated proportionally at current effective rates (glasses: 18.1%, ring: 35%).
 
-| Glasses Cost                     | Ring Cost                  | Other Costs | CAC   | Total   | Margin at $649 |
-| -------------------------------- | -------------------------- | ----------- | ----- | ------- | -------------- |
-| $365 + $66T (current)            | $42.50 + $14.88T (current) | $20.00      | $100  | $608.38 | **6.3%**       |
-| $365 + $66T (current)            | $15 + $5.25T (target)      | $20.00      | $100  | $571.25 | **12.0%**      |
-| $292 + $52.85T (−20%)           | $42.50 + $14.88T (current) | $20.00      | $100  | $522.23 | **19.5%**      |
-| $292 + $52.85T (−20%)           | $15 + $5.25T (target)      | $20.00      | $100  | $485.10 | **25.3%**      |
-| $292 + $27T (−20% + HTS ruling) | $15 + $5.25T (target)      | $20.00      | $100  | $459.25 | **29.2%**      |
+| Glasses Cost                     | Ring Cost                  | Other Costs        | CAC     | Total           | Margin at $649 |
+| -------------------------------- | -------------------------- | ------------------ | ------- | --------------- | -------------- |
+| $365 + $66T (current)            | $42.50 + $14.88T (current) | $20.00      | $100 | $608.38 | **6.3%**  |                |
+| $365 + $66T (current)            | $15 + $5.25T (target)      | $20.00      | $100 | $571.25 | **12.0%** |                |
+| $292 + $52.85T (−20%)           | $42.50 + $14.88T (current) | $20.00      | $100 | $522.23 | **19.5%** |                |
+| $292 + $52.85T (−20%)           | $15 + $5.25T (target)      | $20.00      | $100 | $485.10 | **25.3%** |                |
+| $292 + $27T (−20% + HTS ruling) | $15 + $5.25T (target)      | $20.00      | $100 | $459.25 | **29.2%** |                |
 
 **Key observation:** CAC at $100 (15.4% of revenue) is the single largest margin compressor after the glasses themselves. Ring sourcing at current Jstyle pricing ($42.50 + $14.88 tariff = $57.38) costs more per unit than last mile, shipping, and box combined. Reducing ring to the $9–16 target range is the fastest near-term margin lever outside of the glasses cost itself.
 
@@ -238,11 +238,11 @@ Final assembly in Vietnam or Mexico using Chinese-origin components eliminates S
 
 At 200–1,000 units/month, commodity components are still at near-sample pricing. Committing to monthly runs unlocks better rates:
 
-| Component                                                     | Current Est. | Potential Saving |
-| ------------------------------------------------------------- | ------------ | ---------------- |
-| PCB/PCBA (committed monthly run at JLCPCB/Kinergy)            | $35–50       | $7–10            |
-| Li-Po batteries (direct to Grepow or ATL, monthly commitment) | $16–22       | $5–8             |
-| Frame (committed run pricing with Dongguan ODM)               | $12–18       | $5–8             |
+| Component                                                     | Current Est.           | Potential Saving |
+| ------------------------------------------------------------- | ---------------------- | ---------------- |
+| PCB/PCBA (committed monthly run at JLCPCB/Kinergy)            | $35–50       | $7–10 |                  |
+| Li-Po batteries (direct to Grepow or ATL, monthly commitment) | $16–22       | $5–8  |                  |
+| Frame (committed run pricing with Dongguan ODM)               | $12–18       | $5–8  |                  |
 
 The key is shifting from ad-hoc orders to committed monthly purchase agreements. At 200–1,000 units/month these suppliers will move from prototype to production pricing.
 
@@ -278,7 +278,6 @@ The Shenzhen smart ring ecosystem is well-developed — dozens of suppliers make
 
 At 200–1,000 units/month, multiple Shenzhen suppliers can hit $9–16/unit on this spec. Sourcing from an alternative supplier at $12 all-in (product + charger) versus Jstyle at $42.50 saves **$30.50 on product alone** before tariff reduction.
 
-
 ---
 
 ## Path 7: Scope Reduction with Meta-Bounds
@@ -293,33 +292,33 @@ Rather than buying a complete glasses assembly, buy only the **optical module** 
 - Final assembly at a commodity Shenzhen CM at $15–20/unit
 - Mira gains more control over non-optical components
 
-This is a stepping stone toward full CFM without requiring Mira to manage the entire component supply chain immediately.
+This is a stepping stone toward full CFM without requiring Mira to manage the entire component supply chain immediately. This is a long term only option. 
 
 ---
 
 ## Summary — Prioritized Action Plan
 
-| Priority | Path | Saving/Unit | Effort | Timeline |
-|---|---|---|---|---|
-| 1 | CBP Binding Ruling (HTS 8517.62) | $27-39 | Low | 6-12 weeks |
-| 2 | Competitive RFQ: Optiark + Lochn (glasses) | $30-40 | Medium | 4-8 weeks |
-| 3 | Ring cost reduction to $15 target | $37-45 | Low-Medium | 4-8 weeks |
-| 4 | Leverage 100% upfront in negotiation | $15-25 | Low | Immediate |
-| 5 | Volume pricing on non-display components | $17-26 | Medium | 2-4 months |
-| 6 | Scope reduction (optical module only) | $20-40 | Medium | 2-3 months |
-| 7 | Customer Furnished Materials (CFM) | $30-50 | High | 3-6 months |
+| Priority | Path                                       | Saving/Unit | Effort    | Timeline   |
+| -------- | ------------------------------------------ | ----------- | --------- | ---------- |
+| 1        | CBP Binding Ruling (HTS 8517.62)           | $27-39      | Low       | 6-12 weeks |
+| 2        | Competitive RFQ: Optiark + Lochn (glasses) | $30-40      | Medium    | 4-8 weeks  |
+| 3        | Ring cost reduction to $15 target | $37-45 | Low-Medium  | 4-8 weeks |            |
+| 4        | Leverage 100% upfront in negotiation       | $15-25      | Low       | Immediate  |
+| 5        | Volume pricing on non-display components   | $17-26      | Medium    | 2-4 months |
+| 6        | Scope reduction (optical module only)      | $20-40      | Medium    | 2-3 months |
+| 7        | Customer Furnished Materials (CFM)         | $30-50      | High      | 3-6 months |
 
 ### Combined impact on contribution margin
 
 Starting from current true contribution margin of 6.3% ($40.62 on $649):
 
-| Actions | Additional Saving | New Total Cost | Contribution Margin |
-|---|---|---|---|
-| Current state | baseline | $608.38 | 6.3% |
-| + Ring to $15 (Path 6) | $37.13 | $571.25 | 12.0% |
-| + CBP ruling 8517.62 (Path 4) | $39.00 | $532.25 | 18.1% |
-| + Glasses RFQ -$35 (Path 1) | $35.00 | $497.25 | 23.5% |
-| + 100% upfront leverage -$20 (Path 2) | $20.00 | $477.25 | 26.5% |
+| Actions                                        | Additional Saving | New Total Cost | Contribution Margin |
+| ---------------------------------------------- | ----------------- | -------------- | ------------------- |
+| Current state                                  | baseline          | $608.38        | 6.3%                |
+| + Ring to $15 (Path 6) | $37.13                | $571.25           | 12.0%          |                     |
+| + CBP ruling 8517.62 (Path 4)                  | $39.00 | $532.25  | 18.1%          |                     |
+| + Glasses RFQ -$35 (Path 1) | $35.00           | $497.25           | 23.5%          |                     |
+| + 100% upfront leverage -$20 (Path 2) | $20.00 | $477.25           | 26.5%          |                     |
 
 **Recommended immediate actions:**
 
